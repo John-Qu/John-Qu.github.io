@@ -30,6 +30,12 @@ categories: tools
 
 借用[Rasmus Andersson](https://rsms.me/) ([source](https://github.com/rsms/rsms.github.com))哥哥的网站，成功本地运行。
 
-这个办法可行，明天把新步骤和阶段性结果还原出来。
+这个办法可行，具体来说要注意三件事。
+
+1. 本地安装jekyll的指导文档中，用：
+
+
+
+
 
 2017年7月12日，周三，初稿。

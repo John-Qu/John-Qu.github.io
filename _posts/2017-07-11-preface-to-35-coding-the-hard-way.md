@@ -4,7 +4,6 @@ title: "三十五岁硬转软——前言"
 date: 2017-07-11
 ---
 
-
 题解：所谓“硬转软”，有两层意思。一层是说我从做机械设备这样比较“硬”的产品，转型做计算或者网站类比较“软”的产品。另一层意思是说在三十五岁这个年龄，本该是肌肉丰满，在特定领域独当一面了；我现在硬要转到新领域去，变成了软柿子。
 
 ## 为什么要从机械向软件转型？
@@ -131,7 +130,6 @@ PS：在google搜的mechanical engineer 转 programmer的说法：
 [The Difference Between Mechanical Engineers & Computer Programmers](http://work.chron.com/difference-between-mechanical-engineers-computer-programmers-25706.html)
 
 [Mechanical Engineering + Programming =?](https://answers.yahoo.com/question/index?qid=20080914154012AAExstU)
-
 
 
 2017年7月10日，周一，初稿。
