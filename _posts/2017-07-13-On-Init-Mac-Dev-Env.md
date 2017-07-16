@@ -5,7 +5,7 @@ date:   2017-07-13 12:40:09 +0800
 categories: tools
 ---
 
-拿到新Mac机，要为程序开发来配置开发环境。这是个特殊的事，新手和老鸟感觉不同。新手不知道要做什么、怎么配置，什么都很困难、也很新鲜；老鸟轻车熟路，却觉得一步步操作很烦人。我看了[李笑来](http://lixiaolai.com/2016/06/16/makecs-basic-dev-env-settup/)、[nicolashery](https://github.com/nicolashery)、[donnemartin](https://github.com/donnemartin)三位前辈的配置说明，从新手的视角谈谈，怎么能把这事做得优雅。
+拿到新Mac机，要为程序开发来配置开发环境。这是个特殊的事，新手和老鸟感觉不同。新手不知道要做什么、怎么配置，什么都很困难、也很新鲜；老鸟轻车熟路，却觉得一步步操作很烦人。今天我看了[李笑来](http://lixiaolai.com/2016/06/16/makecs-basic-dev-env-settup/)、[nicolashery](https://github.com/nicolashery)、[donnemartin](https://github.com/donnemartin)三位前辈的配置说明，我想从新手的视角谈谈，怎么能把这事做得优雅。
 
 ## 有什么“不优雅”吗
 
