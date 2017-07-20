@@ -65,3 +65,10 @@ categories: tools
 ---
 
 2017年7月13日，周四，19:32初稿。
+
+---
+
+.gitignore
+
+注意包含`.DS_Store`,还有其他隐藏文件。参考nicolas的文件实例。
+
