@@ -66,9 +66,74 @@ categories: tools
 
 2017年7月13日，周四，19:32初稿。
 
+2017-07-21-Fri 补充安装过程记录。
+
 ---
 
-.gitignore
+PS：昨天的重装进程。
 
-注意包含`.DS_Store`,还有其他隐藏文件。参考nicolas的文件实例。
+### 重装系统 50分钟。
+
+### 设置system preference
+
+- 光标移动速度调至最快，键入延迟减到最低。
+- 设置鼠标移到右下角触发关闭屏幕动作，移到右上角出发回到桌面动作。
+- 输入法添加日文，用cap键切换中英输入。
+- Dock自动隐藏，移到屏幕左边，避免Dock不自动隐藏的话，干扰屏幕下方的输入区域。
+
+### App Store的已购项目中恢复软件
+
+- 微信
+- 印象笔记
+- MindNode 2
+- 云梯从官网下载，这里的版本没有测速功能。
+- 网易云音乐
+- iPic图床
+- 暂时不装Numbers
+- 暂时不装Pages
+- 暂时不装Keynote
+- 装载2.5G的iMovie，我要做照片视频
+- 肯定不装GarageBand
+- 暂时不装有道云笔记
+- 购买Moom，68块钱。
+
+### 安装Chrome（链接VPN保证版本）
+
+### 安装iTerm，官网下载dmg
+
+- 配置色彩方案为Solarized Dark
+- 安装微软字体Consolas
+- 借用Nicolas的profile，promote，和aliases。
+
+### 安装Command line tools
+
+- xcode-select --install就够了。Xcode几个G，一般没有必要。
+- 这个过程我第二次花了一刻钟。
+- 有了它，你才能从源代码搭建东西。
+
+### 安装[Homebrew](https://brew.sh)
+
+- 它是OS X上最常用的安装包管理器。
+- 记住brew help是个入口，众多用法在里面看。
+
+### 安装Git
+
+- 用brew装，很简单。我此时是2.23.3版。
+- 借用Nicolas的gitconfig，给Git上点颜色，里面也写了几个aliases。
+- 给gitconfig里添加用户名和邮箱。
+- 用HTTPS加密，而不是SSH。
+- .gitignore注意包含`.DS_Store`,还有其他隐藏文件。参考nicolas的文件实例。
+
+### 安装编辑器Emacs
+
+- 从陈斌那里Git下来就可用，但是不会用，开始很傻，连鼠标都动不了。
+
+### Python的安装
+
+- nicolas的做法有不足，brew装的是2.7版，还默认带了pip。我需要用3.X版。
+- 准备用python.org的指导文档。
+
+未完待续。
+
+
 
