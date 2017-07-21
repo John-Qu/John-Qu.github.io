@@ -203,3 +203,15 @@ MacBook也好，收费App也罢，都只是工具呀，我们用他们是要完�
 
 2017-07-21-Fri 初稿成，昨天酝酿，电脑又重装，今天写了一整天，期间也看了几个内文链接网站。
 
+---
+
+PS1: 这是我今天下午根据Github.css更改配色的typora界面，怎么样？
+
+![](https://ws1.sinaimg.cn/large/006tKfTcgy1fhrpaidvwpj31kw0zkncz.jpg)
+
+PS2: 这是我git commit时的反馈，95%更新，它认为我rewrite了这篇文章。
+
+![](https://ws1.sinaimg.cn/large/006tKfTcgy1fhrphxqeawj31ja0kqk40.jpg)
+
+
+
