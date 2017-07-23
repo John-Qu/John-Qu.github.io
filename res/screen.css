@@ -29,6 +29,8 @@
   font-feature-settings:"kern" 1, "liga" 1;
   }
 
+
+
 div.breaker { clear:both; }
 .template { display:none; }
 
@@ -38,6 +40,42 @@ pre, code, tt {
 }
 img { border:none; vertical-align:bottom; }
 hr { height:1px; border:none; background-color:#ddd; }
+
+/* tables */
+table{
+    margin: 1.8em 0em;
+    padding: 0;
+    word-break: initial;
+}
+table tr {
+    border-top: 1px solid #cccccc;
+    margin: 0;
+    padding: 0;
+}
+table tr:nth-child(2n) {
+    background-color: #002833;
+}
+table tr th {
+    font-weight: bold;
+    Border: 1px solid #cccccc;
+    text-align: left;
+    margin: 0;
+    padding: 6px 13px;
+}
+table tr td {
+    border: 1px solid #cccccc;
+    text-align: left;
+    margin: 0;
+    padding: 6px 13px;
+}
+table tr th:first-child,
+table tr td:first-child {
+    margin-top: 0;
+}
+table tr th:last-child,
+table tr td:last-child {
+    margin-bottom: 0;
+}
 
 /* headings */
 h1,h2,h3,h4,h5,h6 {
