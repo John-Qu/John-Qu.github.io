@@ -3,11 +3,10 @@
 }
 
 * { margin:0; padding:0; font-family:inherit; }
-  body {
+body {
   background: #fff;
   color: #222;
-  font-family:"Open Sans","Clear Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-
+  font-family: Inconsolata, Consolas, "Liberation Mono", Menlo, Courier, monospace;
   font-size:16px;
   line-height:1.5;
 
@@ -27,7 +26,7 @@
   -o-font-feature-settings:"kern" 1, "liga" 1; 
   -webkit-font-feature-settings:"kern" 1, "liga" 1; 
   font-feature-settings:"kern" 1, "liga" 1;
-  }
+}
 
 div.breaker { clear:both; }
 .template { display:none; }
@@ -206,7 +205,7 @@ div.content.photo {
   div.content:not(.sub) h1:first-child {
     margin-top:0;
   }
-
+  
   div.content img, div.content iframe { display:block; max-width:100%; margin:1em 0; }
   div.content iframe { border:none; }
   div.content *[align="right"] { margin:0 0 1em 1.5em; }
@@ -242,7 +241,7 @@ div.content.photo {
     color: #333;
     padding:16px;
   }
-
+  
   div.content code {
     padding:3px 0;
   }
@@ -324,7 +323,7 @@ div.content.photo {
   div.content div.footnotes li { color:#999; }
   div.content div.footnotes li > p { margin:0; }
   div.content div.footnotes li:target { background:#ffc; color:inherit; }
-
+  
 
 div.content.sub {
   margin-top:-50px;
@@ -344,17 +343,17 @@ div.post {
   page-break-before: always;
 }
   div.post.single, div.post:last-child { border-bottom:none; }
-
+  
   div.post actions, div.post info {
     color: #ccc;
   }
-
+  
   div.post actions {
     background: blue;
     display:inline-block;
     float:right;
   }
-
+  
   div.post info {
     display:block;
   }
