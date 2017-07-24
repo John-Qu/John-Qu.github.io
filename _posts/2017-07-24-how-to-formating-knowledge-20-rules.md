@@ -1,19 +1,25 @@
 ---
 layout: logdown
-title:  "怎样优雅地设问，更有效地消化知识" 2017-07-24-how-to-formating-knowledge-20-rules
+title:  "怎样优雅地啃玉米，更有效地消化知识"
 date:   2017-07-24 11:08 +0800
 categories: method
 ---
 
-学习速度快慢与如何格式化材料相关，有决定性作用。我相信这个吗？你相信吗？没有论证，不用论证。且看下文20个条目分解——按重要性排序，前面的最常被人违背，或遵守了获益最大。
+学习速度快慢与如何格式化材料相关，有决定性作用。我相信这个吗？你相信吗？没有论证，不用论证。且看下文20个条目分解——按重要性排序，排在前面的最常被人违背，或遵守了获益最大。假设你认同[间隔重复理论](http://super-memory.com/articles/theory.htm)，并使用相应工具——比如开山鼻祖Supermemo，或后来居上的Anki。
 
-前提是你认同[间隔重复理论](http://super-memory.com/articles/theory.htm)，并使用它——比如开山鼻祖Supermemo，或后来居上的Anki。
+文章原文：
+
+[Effective learning: Twenty rules of formulating knowledge](https://www.supermemo.com/en/articles/20rules)
+
+（https://www.supermemo.com/en/articles/20rules）
+
+Dr Piotr Wozniak, February, 1999
 
 ## 关于作者Piotr Wozniak
 
 从[他朋友的文章](http://www.antimoon.com/other/piotr-wozniak.htm)中看，是个柳比歇夫一样的“怪人”。他致力于找到最高效发挥记忆和阅读能力的方法，因为朋友来访和电话没发确定内容轻重和时间长短，所以他将此类内容排除生活之外。像Szynalski开玩笑所说，Piotr貌似被自己研发的HAL 9000型电脑绑架了。（汪亮说我被工具绑架，这才是鲜活的例子）
 
-## 他的硕士论文和博士论文都在本文中有所引用，好有成就感。
+他的硕士论文和博士论文都在本文中有所引用，好有成就感。
 
 ## 1.  没法消化就不吃
 
@@ -125,3 +131,26 @@ categories: method
 
 - 以防将来被人问到你这知识从哪里来？谁说的？
 - 以备将来又看到冲突的知识，要比较哪方更可靠？
+
+## 19. 记录时效
+
+有些知识有时效性，比如经济见解，高科技行业，软件版本。
+
+## 20. 区分轻重
+
+知识永远多于个人，总要分出轻重缓急。
+
+- 区分来源。课本还是笔记，考纲还是串讲？
+- 提取知识。记在书里？整页提取？细节到什么程度？哪里对知识体系有冲击？——这是经验。
+- 直接导入vs人工整理。看你怎么权衡。
+- 凸显要点，附加信息放在括号里，作为几次强化之后提示上下文之用。
+- 索引忘记项目，重新评价其重要性。
+
+
+
+
+---
+
+[TOC]
+
+2017-07-24-how-to-formating-knowledge-20-rules
