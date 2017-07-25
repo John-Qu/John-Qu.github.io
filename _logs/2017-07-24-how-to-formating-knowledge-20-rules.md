@@ -1,5 +1,5 @@
 ---
-layout: logdown
+layout: log
 title:  "怎样优雅地啃玉米，更有效地消化知识"
 date:   2017-07-24 11:08 +0800
 categories: method
