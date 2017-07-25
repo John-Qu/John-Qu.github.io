@@ -14,4 +14,4 @@ I am going to be a web developer, software programmer, and neo-generalist.
 You can find me on a variety of world–wild–interweb sites where my username is usually `John Qu`
 
 
-- [GitHub](https://github.com/john-qu) — code, yummy code
+- [GitHub](https://github.com/john-qu) — By now, this site.

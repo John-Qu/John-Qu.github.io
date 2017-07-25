@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Archive
+title: Log
 ---
-<h1>Archive</h1>
+<h1>Logs</h1>
 <form action="http://www.google.com/cse" id="cse-search-box">
   <p>
     <input type="hidden" name="cx" value="006553118601910168903:-x3qflztwei" />
@@ -49,9 +49,9 @@ html.ios #cse-search-button {
 }
 </style>
 <ul class="minimal">
-{% for post in site.posts %}
+{% for log in site.logs %}
   <li>
-    {{ post.date | date: "%b %d, %Y"  }} &mdash; <a href="{% if post.external_url %}{{ post.external_url }}{% else %}{{ post.url }}{% endif %}">{% if post.title != "" %}{{ post.title }}{% else %}{{ post.slug }}{% endif %}</a>
+    {{ log.date | date: "%b %d, %Y"  }} &mdash; <a href="{% if log.external_url %}{{ log.external_url }}{% else %}{{ log.url }}{% endif %}">{% if log.title != "" %}{{ log.title }}{% else %}{{ log.slug }}{% endif %}</a>
   </li>
 {% endfor %}
 </ul>
