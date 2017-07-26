@@ -59,16 +59,15 @@
     <header{% unless page.date %} class="main"{% endunless %}>
       <h1 class="logo"><a href="/"><img src="/res/icon/icon.svg" width="32" height="32"></a></h1>
       <ul class="navigation">
-         <li><a href="http://johnquicker-blog.logdown.com/" title="My diary of the past 3 months">Logdown</a></li>
+        <li><a href="http://johnquicker-blog.logdown.com/" title="My diary of the past 3 months">Logdown</a></li>
         <!-- <li><a href="/projects/"{% if page.url contains "/projects/" %}class="active"{% endif %} title="Projects I am or was involved in">Projects</a></li> -->
-        <li><a href="/_logs/"{% if page.url contains "/_logs/" %}class="active"{% endif %} title="Tech logs">Logs</a></li>
         <li><a href="/archive/"{% if page.url contains "/archive/" %}class="active"{% endif %} title="Archived articles">Archive</a></li>
         <li><a href="/about/"{% if page.url contains "/about/" %}class="active"{% endif %}>About me</a></li>
       </ul>
     </header>
-    
+
     {{ content }}
-    
+
     {% unless page.no_footer %}
     <footer>
       <p>
@@ -76,7 +75,7 @@
       </p>
     </footer>
     {% endunless %}
-    
+
     {% include highlight.html %}
     {% include analytics.html %}
     <script>for (var k in window.initFuncs) { window.initFuncs[k](); } delete window.initFuncs;</script>
