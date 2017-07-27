@@ -5,7 +5,13 @@ date: 2017-07-26 11:58:38 +0800
 categories: logs
 ---
 
-什么是计算机科学的思考方式？
+Allen Downey在他的书*Think python*第一章就强调：此书目的是教你像计算科学家一样思考。那么问题来了，什么是计算科学的思考方式呢？小可就结合Google搜索推荐，作一小结。
+
+2017-07-27通读了两篇关于这个问题的blog，还有一篇昨天读了一小半，今天读完了。
+
+- [Maybe Not Everybody Should Learn to Code](http://www.slate.com/articles/technology/future_tense/2013/08/everybody_does_not_need_to_learn_to_code.html)
+- [Don't learn to code. Learn to think.](http://www.ybrikman.com/writing/2014/05/19/dont-learn-to-code-learn-to-think/)
+- [How to Think Like a Computer Scientist](https://samking.org/summer-2013/musings/how-to-think-like-a-computer-scientist)
 
 Allen说：The goal of this book is to teach you to think like a computer scientist. This way of thinking combines some of the best features of mathematics, engineering, and natural science. Like mathematicians, computer scientists use formal languages to denote ideas (specifically computations). Like engineers, they design things, assembling components into systems and evaluating tradeoffs among alternatives. Like scientists, they observe the behavior of complex systems, form hypotheses, and test predictions.
 
