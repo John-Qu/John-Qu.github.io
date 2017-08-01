@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "我学习用python思考"
-date: 2017-07-28 16:39:18 +0800
+date: 2017-08-01 17:36:16 +0800
 categories: tools
 ---
 
@@ -39,3 +39,10 @@ Wozniak[建议没有整体图景之前不要拼图](https://www.supermemo.com/en
 
 ![](https://ws3.sinaimg.cn/large/006tNc79gy1fhzoo3qq5mj30uc1lcar4.jpg)
 
+## 4.  [案例：交互界面设计](http://greenteapress.com/thinkpython2/html/thinkpython2005.html)
+
+- 2017-07-31，读课文，做内部例题。我Debug的方式太傻了，其实一眼就该看出来sin函数给了负数值。
+- 2017-08-01，做复盘，做课后练习。还有两道联系题，螺线和字母表，都应该很有意思，今天来不及做了。
+
+
+![](https://ws2.sinaimg.cn/large/006tNc79gy1fi4cs9k91tj31kw2m47wh.jpg)
