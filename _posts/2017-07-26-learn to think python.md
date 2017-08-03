@@ -247,3 +247,9 @@ recurse n--> 1 s--> 14
 15
 ```
 
+## 有返回值的函数
+
+2017-08-03，读完做完。今天就不贴代码，对比经验写在下图中了。（貌似越写越多）
+
+![](https://ws3.sinaimg.cn/large/006tNc79gy1fi6psssvqdj30yu24odwq.jpg)
+
