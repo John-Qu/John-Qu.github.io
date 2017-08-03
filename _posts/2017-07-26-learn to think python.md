@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "我学习用python思考"
-date: 2017-08-02 17:14:16 +0800
+title:  "我学习用python思考的提取脑图"
+date: 2017-08-03 18:35:56 +0800
 categories: tools
 ---
 
