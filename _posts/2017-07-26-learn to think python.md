@@ -253,3 +253,13 @@ recurse n--> 1 s--> 14
 
 ![](https://ws3.sinaimg.cn/large/006tNc79gy1fi6psssvqdj30yu24odwq.jpg)
 
+## 7. [反复](http://greenteapress.com/thinkpython2/html/thinkpython2008.html)
+
+2017-08-04，争取一个上午做完。
+
+算法的书，资源，打住。
+
+只有这些时间，转换到什么程度，看努力。
+
+
+
