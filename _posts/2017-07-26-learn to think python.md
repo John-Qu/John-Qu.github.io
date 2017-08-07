@@ -255,11 +255,17 @@ recurse n--> 1 s--> 14
 
 ## 7. [反复](http://greenteapress.com/thinkpython2/html/thinkpython2008.html)
 
-2017-08-04，争取一个上午做完。
+2017-08-04。算法的书，资源，打住。
 
-算法的书，资源，打住。
+![](https://ws3.sinaimg.cn/large/006tKfTcgy1fibc52vqnbj30z60wcjyt.jpg)
 
-只有这些时间，转换到什么程度，看努力。
+## 8. 字符串
+
+2017-08-07，明天要做文字游戏了，大战一场。
+
+![](https://ws1.sinaimg.cn/large/006tKfTcgy1fibc38wtm3j30xw13mn6d.jpg)
+
+Keep that in mind in case you have to defend yourself against a man armed with a Pineapple.啥意思？
 
 
 
