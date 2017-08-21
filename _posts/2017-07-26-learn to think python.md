@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "我学习用python思考的提取脑图"
-date: 2017-08-03 18:35:56 +0800
+title:  "我学习用python思考的复盘图"
+date: 2017-08-20 15:58:47 +0800
 categories: tools
 ---
 
@@ -11,29 +11,29 @@ categories: tools
 
 2017-07-26。
 
-Wozniak[建议没有整体图景之前不要拼图](https://www.supermemo.com/en/articles/20rules)，这样效率相对低，我就把目录抄了一遍。果然感觉更舒服。
+Wozniak[建议没有整体图景之前不要拼图](https://www.supermemo.com/en/articles/20rules)，这样效率相对低。我就把目录抄了一遍。果然感觉更舒服。
 
 ![整体图景](https://ws3.sinaimg.cn/large/006tNc79gy1fhyav1jf0wj31b80rkai0.jpg)
 
-## [前言的话](http://greenteapress.com/thinkpython2/html/thinkpython2001.html)
+## [0. 前言的话](http://greenteapress.com/thinkpython2/html/thinkpython2001.html)
 
 2017-07-26.
 
 ![前言的话](https://ws3.sinaimg.cn/large/006tNc79gy1fhyavhc78mj317o0toq95.jpg)
 
-## [程序语言](http://greenteapress.com/thinkpython2/html/thinkpython2002.html)
+## [1. 程序语言](http://greenteapress.com/thinkpython2/html/thinkpython2002.html)
 
 2017-07-26，这是对照原文写的，有过细之嫌。下次只写对自己有提示的地方就可以了。我不是做讲义，而是给自己做复盘。
 
 ![程序语言](https://ws1.sinaimg.cn/large/006tNc79gy1fhyaupgwkvj31701jyap7.jpg)
 
-## [变量陈述](http://greenteapress.com/thinkpython2/html/thinkpython2003.html)
+## [2. 变量陈述](http://greenteapress.com/thinkpython2/html/thinkpython2003.html)
 
 2017-07-27，这次几乎是背着写的，有主动回忆，感觉挺好。
 
 ![变量陈述](https://ws4.sinaimg.cn/large/006tNc79gy1fhyaud99ekj31h412ewoh.jpg)
 
-## [函数](http://greenteapress.com/thinkpython2/html/thinkpython2004.html)
+## [3. 函数](http://greenteapress.com/thinkpython2/html/thinkpython2004.html)
 
 2017-07-28，今天学得不慢，做练习不太顺：E3我没有读清楚问题，自己给自己设定新任务：用一个参数控制打出多大的格子。但是这个功能如果不用循环语句，只用目前见过的命令，应该做不到。
 
@@ -47,7 +47,7 @@ Wozniak[建议没有整体图景之前不要拼图](https://www.supermemo.com/en
 
 ![](https://ws2.sinaimg.cn/large/006tNc79gy1fi4cs9k91tj31kw2m47wh.jpg)
 
-## [条件和反复](http://greenteapress.com/thinkpython2/html/thinkpython2006.html#sec68)
+## [5. 条件和反复](http://greenteapress.com/thinkpython2/html/thinkpython2006.html#sec68)
 
 2017-08-02，末两个练习用到上一章turtle的练习，今天没做，也留着。
 
@@ -126,7 +126,6 @@ sec_remain = min_remain % 60
 now_sec = int(sec_remain)
 
 print("year", now_year, "month:", now_month, "day:", now_day, "hour:", now_hour, "min:", now_min, "sec:", now_sec)
-
 ```
 
 第一版结果。
@@ -247,7 +246,7 @@ recurse n--> 1 s--> 14
 15
 ```
 
-## 有返回值的函数
+## 6. 有返回值的函数
 
 2017-08-03，读完做完。今天就不贴代码，对比经验写在下图中了。（貌似越写越多）
 
@@ -267,5 +266,105 @@ recurse n--> 1 s--> 14
 
 Keep that in mind in case you have to defend yourself against a man armed with a Pineapple.啥意思？
 
+## 9. 案例：文字游戏
 
+2017-08-08做题，没来得及复盘。
 
+## 10. 清单
+
+2017-08-09。习题做了8个，还有四个来不及做。
+
+![](https://ws1.sinaimg.cn/large/006tKfTcly1fiq88jzt06j313w1c67ew.jpg)
+
+## 11. 字典
+
+2017-08-10，只做了2/6道题。
+
+![](https://ws3.sinaimg.cn/large/006tKfTcly1fiq8a4kilcj30vk1e0dpz.jpg)
+
+2017-08-10。
+
+> The in operator works on dictionaries, too; it tells you whether something appears as a *key* in the dictionary (appearing as a value is not good enough).
+
+为什么不够好？
+
+> For dictionaries, Python uses an algorithm called a hashtable that has a remarkable property: the in operator takes about the same amount of time no matter how many items are in the dictionary. I explain how that’s possible in Section [B.4](http://greenteapress.com/thinkpython2/html/thinkpython2022.html#hashtable), but the explanation might not make sense until you’ve read a few more chapters.
+
+将来要读读。
+
+```python
+"""E11-2 2017-08-10
+"""
+
+def histogram(s):
+    """E11-2: rewrite the histogram with .get()method
+
+    s: string
+    return: dist of charactor and counter
+    """
+    d = dict()
+    for c in s:
+        d[c] = d.get(c, 0) + 1
+    return d
+
+h = histogram('brontosaurus')
+print(h)
+```
+
+E11-10-2
+
+`inverse.setdefault(val, [key]).append(key`产生的结果是：
+
+> {'b': 1, 'r': 2, 'o': 2, 'n': 1, 't': 1, 's': 2, 'a': 1, 'u': 2}
+> {1: ['b', 'b', 'n', 't', 'a'], 2: ['r', 'r', 'o', 's', 'u']}
+
+可见在新建key-value-pair的时候，多输入了一次字符串。所以，` inverse.setdefault(val, []).append(key)`才对。
+
+> {'b': 1, 'r': 2, 'o': 2, 'n': 1, 't': 1, 's': 2, 'a': 1, 'u': 2}
+> {1: ['b', 'n', 't', 'a'], 2: ['r', 'o', 's', 'u']}
+
+注意，`[]`不能省，因为setdefault默认返回值是None，NoneType没有append方法。
+
+---
+
+`str.split(*sep=None*, *maxsplit=-1*)`
+
+Sorting HOW TO待读。
+
+## 12. 死清单
+
+2017-08-11, 四道习题做了三道，还真得做题，才有消化的感觉。
+
+![](https://ws4.sinaimg.cn/large/006tKfTcly1fiq8huvnwoj31061dgdqa.jpg)
+
+## 13. [案例：选择数据结构](http://greenteapress.com/thinkpython2/html/thinkpython2014.html)
+
+2017-08-14&15，周一尝试写E1～5，周二再写一遍，做出了E7，E8，能模仿emma和呐喊生成文本，很高兴。还有E6，E9没有做。
+
+2017-08-16一早复盘。
+
+![](https://ws2.sinaimg.cn/large/006tKfTcly1fiq8kw9rclj30zn23zwt1.jpg)
+
+## 14. 文件
+
+2017-08-17
+
+![](https://ws2.sinaimg.cn/large/006tKfTcly1fiq8pi1kifj30xq1bqakk.jpg)
+
+## 15. 类和对象
+
+2017-08-17
+
+![](https://ws1.sinaimg.cn/large/006tKfTcly1fiq8qucvrzj30wy0x8wkx.jpg)
+
+## 16. 类和函数
+
+2017-08-18下午开读，晚上做完练习1；2017-08-19做完练习2；2017-08-20复盘。
+
+![](https://ws3.sinaimg.cn/large/006tKfTcly1fiq8sgh78zj31181bc49f.jpg)
+
+## 还有5章
+
+2017-08-20
+
+![](https://ws1.sinaimg.cn/large/006tKfTcly1fiq8tymanqj313610uqar.jpg)
