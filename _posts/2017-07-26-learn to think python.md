@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "我学习用python思考的复盘图"
-date: 2017-08-20 15:58:47 +0800
+date: 2017-08-24 18:16:42 +0800
 categories: tools
 ---
 
@@ -374,3 +374,9 @@ Sorting HOW TO待读。
 2017-08-21，读完做完；2017-08-22，早晨复盘。
 
 ![](https://ws3.sinaimg.cn/large/006tNc79gy1fisafsjzedj30zo1satmc.jpg)
+
+## 18. 继承
+
+2017-08-23，读书，做完习题；2017-08-24，分析解答，复盘。
+
+![](https://ws2.sinaimg.cn/large/006tNc79gy1fiuzc3glqgj316v2ylh90.jpg)
