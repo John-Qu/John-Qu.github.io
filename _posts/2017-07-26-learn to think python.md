@@ -380,3 +380,11 @@ Sorting HOW TO待读。
 2017-08-23，读书，做完习题；2017-08-24，分析解答，复盘。
 
 ![](https://ws2.sinaimg.cn/large/006tNc79gy1fiuzc3glqgj316v2ylh90.jpg)
+
+## 19. 糖果
+
+2017-08-25上午阅读，下午做题复盘。
+
+![](https://ws2.sinaimg.cn/large/006tKfTcgy1fiw2reuwgnj30yz1n2qfa.jpg)
+
+还有两章，四周没有完成，也哈哈了。
