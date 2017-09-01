@@ -388,3 +388,19 @@ Sorting HOW TO待读。
 ![](https://ws2.sinaimg.cn/large/006tKfTcgy1fiw2reuwgnj30yz1n2qfa.jpg)
 
 还有两章，四周没有完成，也哈哈了。
+
+## 20. 纠错
+
+2017-08-31，偷懒，写多了，因为看着教材。
+
+![](https://ws2.sinaimg.cn/large/006tNc79gy1fj48ko8wvjj31gc4gcb29.jpg)
+
+## 21. 算法分析 
+
+2017-09-01，匆忙读完，没有搞懂，一定再来。
+
+![](https://ws1.sinaimg.cn/large/006tNc79gy1fj48m33673j317f278dvb.jpg)
+
+## 第一遍完，下周第二遍，这次用英文吧
+
+![](https://ws2.sinaimg.cn/large/006tNc79gy1fj48n0ryfij30u81a07db.jpg) 
