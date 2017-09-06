@@ -1,17 +1,11 @@
 ---
 layout: post
-title:  "MIT6001x W1 Python Basics"
+title:  "Notes of MIT6001x W1 Python Basics V1 Introduction"
 date:   2017-09-06 11:45:45 +0800
 categories: notes
 ---
 
-This is note of MIT6001x week 1: Python Basics.
-
-## Overview of course
-
-> * learn computational modes of thinking
-> * Master the art of computational problem solving
-> * Make computers do what you want them to do
+This is note of MIT6001x week 1: Python Basics.MIT6001x W1 Python Basics Video No.1 Introduction. The transcription is divided by meanings, and words unfamiliar for me are made Italia. I would like to type the content in video slides here, because I have found the intend that I don't read and understand them seriously.
 
 ## Exercise 1
 
@@ -21,7 +15,7 @@ Something cannot be turned into conputational problems. So I chose False.
 
 But this question is asking about **computational mode of thinking**, not computable problems.
 
-## MITX60012016-V000700_DTH_W1_1_Introduction.txt
+## Transcription
 
 ...
 Welcome to 600 part 1.
@@ -29,6 +23,12 @@ We're delighted you're going to join us
 for the next several weeks as we explore
 interesting issues around computational thinking
 and programming.
+
+### OVERVIEW OF COURSE
+
+- learn computational modes of thinking
+- Master the art of computational problem solving
+- Make computers do what you want them to do
 
 ![](https://ws4.sinaimg.cn/large/006tKfTcgy1fj9uzjmjisj311c0s011r.jpg)
 
@@ -65,7 +65,14 @@ It's going to be your **servant**, and that
 means you need to think about how do you get it to do
 the things you want it to do.
 
-### Topics
+### TOPICS
+
+* Represent knowledge with data structures
+* Iteration and recursion as computational *metaphors* (隐喻？)
+* abstraction of procedures and data types
+* Organize and modularize systems using object classes and methods
+* Different classes of algorithms, searching and sorting
+* Complexity of algorithms
 
 ![](https://ws3.sinaimg.cn/large/006tKfTcgy1fj9uwtm5lgj311a0s6gxn.jpg)
 
@@ -115,6 +122,25 @@ and get you engaged in computational thinking.
 
 ### WHAT DOES A COMPUTER DO
 
+* Fundamentally:
+
+  * Performs calculations
+
+    a billion calculations per second!
+
+    ​	two operations in same time with light travels 1 foot
+
+  * Remember results
+
+    100s of gigabytes of storage!
+
+    ​	typical machine could hold 1.5M books of standard size
+
+* What kinds of calculations?
+
+  * Built-in to the language
+  * ones that you define as programmer
+
 ![](https://ws4.sinaimg.cn/large/006tKfTcgy1fj9v732yf2j311a0s013v.jpg)
 
 If we're going to get the computer to do this for us
@@ -134,11 +160,11 @@ Turns out they can do them amazingly fast.
 But all they really do, they perform calculations,
 and they remember things.
 Early computers didn't have much of this power.
-
 Modern computers have a lot.
 But those are really the basis of them--
 perform a lot of calculations really
 quickly and remember results.
+
 Now you could ask, how fast is it really in terms
 of performing calculations?
 The machine you're using can probably
@@ -150,6 +176,7 @@ to the table, your computer's performed two operations.
 That's amazing.
 It's really fast, and it sounds like that's
 going to let a computer do almost anything.
+
 How about remembering things?
 Depends on the size of your computer.
 You probably have a few gigabytes of memory in there.
@@ -164,6 +191,7 @@ So if you're going to start reading those great classics,
 now it's going to take you a while
 before you get through all the things that
 are stored on your machine.
+
 So sounds like computers are amazingly good,
 even though they only do simple calculations
 and they remember results.
@@ -177,13 +205,18 @@ operations, comparing true and false values in order
 to make decisions with that.
 If that's all we had, that's going to be a real pain.
 And so what we want to do through this course
-is figure out how to define new calculations,
-new operations, things we create and give to the computer
-so that it can abstract them, encapsulate them, and treat
-them as if they're primitives.
+is figure out how to define new **calculations**,
+new **operations**, things we create and give to the computer
+so that it can ***abstract*** them, ***encapsulate*** them, and treat
+them as if they're **primitives**.
 But to start with, a computer simply
 performs a lot of those calculations.
 So simple primitive calculations very quickly.
+
+### SIMPLE CALCULATIONS ENOUGH?
+
+![](https://ws1.sinaimg.cn/large/006tKfTcgy1fj9vryroycj311c0s0dqn.jpg)
+
 Is that enough?
 It might be.
 If that's the case, we really don't
@@ -192,11 +225,13 @@ And I want to give you a couple of examples to show you
 why even with the speed of modern computers,
 you need to be able to think carefully, cleverly,
 algorithmically.
+
 Here are two obvious examples of things you might like to do.
 You want to find a piece of information
 on the web, something you do every day with a search engine.
 You might want to play chess or have your computer play
 chess for you.
+
 Suppose you want to search the web.
 How much could you do if you just
 were using simple calculations?
@@ -204,19 +239,20 @@ Well, here's a little computation
 I did before I came in to capture this lecture.
 There are about 45 billion pages right now
 on the World Wide Web.
-On average, there are about 100 words on a page.
+On average, there are about 1000 words on a page.
 And for sake of argument, let's assume
 if we want to find a word on a page,
 it's going to take us about 10 operations
 to try and find out whether that word is on that page or not.
 We'll see later on how he got it down to about 10 operations.
-That says if I'm going to just brute force
+That says if I'm going to just **brute force**
 try and search everything on the web
 to see if I can find the thing I'm looking for, it's only
 going to take me about 5.2 days to find something.
 You probably don't want to wait that long.
 So even with a very fast machine using
 these simple calculations, it's not going to be enough.
+
 How about playing chess?
 An expert will tell you there about,
 on average, 35 moves for every setting on the transport
@@ -234,13 +270,20 @@ And this is simply a way of saying
 that even with fast computers, we need cleverness,
 we need algorithmic thinking to take those simple computations
 and turn them into something more powerful.
+
 And that's as good algorithm design is going to be crucial
 and it's one of the skills you're
 going to learn throughout this course.
+
+### ENOUGH STORAGE?
+
+![](https://ws1.sinaimg.cn/large/006tKfTcly1fj9w37xd3cj311a0s2jxz.jpg)
+
 What about storage?
 For lots of storage in the machine.
 Why don't I just compute everything once, store it away,
 and then just look it up.
+
 So let's go back to chess.
 Imagine I just want to look at all the possible chess games
 and store them away so that when I'm in any move,
@@ -254,15 +297,21 @@ And in fact, there are only about 10
 to the 80th atoms in the observable universe.
 So there's no way that we can store all of that information
 away.
+
 And again, it comes back to saying we can't just
-use brute force or pre-compute.
+use **brute force** or **pre-compute**.
 We need to be clever about how we come up with solutions.
+
+### ARE THERE LIMITS?
+
+![](https://ws4.sinaimg.cn/large/006tKfTcgy1fj9w9lwshkj311e0s4the.jpg)
 
 Even with that, we're going to ask
 are there going to be limits to computation,
 even if we can build clever algorithms?
 And in fact, one can suggest that there are still
 some limitations to what a computer can do.
+
 Some problems are still, at least at the moment, too
 complex, even with clever algorithms
 to come up with solutions fast enough.
@@ -272,6 +321,7 @@ get in my car to come to work.
 I just don't have enough data and enough compute power
 to be able to model at that level of scale.
 Maybe eventually, but not yet.
+
 In some cases, the fact that some things
 are too hard to compute actually works in our favor.
 And encryption schemes are an example of that.
@@ -280,6 +330,7 @@ encoded so nobody can break them rely on encoding or encryption
 schemes that in turn, rely on the fact
 that some problems are simply too complex to be solved
 by a computer.
+
 And in some cases, even if the computers get faster,
 it's still not going to be possible to solve them.
 Some problems are just fundamentally
@@ -287,11 +338,12 @@ impossible to compute.
 And the classic one from computer sciences
 called the Turing halting problem
 and it simply says if I want to write a piece of code,
-a program that could take as input any other program
+a program that could take in as input any other program
 and tell me whether it will always work,
 whether it will always stop with an answer,
 it turns out you simply can't compute that in all cases.
 So there are going to be limits to computation.
+
 Not to worry.
 It's going to be a lot of things we can do,
 and that's what we're going to do throughout this course.
