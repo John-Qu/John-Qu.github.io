@@ -5,7 +5,7 @@ date:   2017-09-06 11:45:45 +0800
 categories: notes
 ---
 
-This is note of MIT6001x week 1: Python Basics.MIT6001x W1 Python Basics Video No.1 Introduction. The transcription is divided by meanings, and words unfamiliar for me are made Italia. I would like to type the content in video slides here, because I have found the intend that I don't read and understand them seriously.
+This is a note of MIT6001x week 1: Python Basics.MIT6001x W1 Python Basics Video No.1 Introduction. The transcription is divided by meanings, and words unfamiliar for me are made Italia. I would like to type the content in video slides here, because I have found the intend that I don't read and understand them seriously.
 
 ## Exercise 1
 
