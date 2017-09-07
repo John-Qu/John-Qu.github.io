@@ -1,19 +1,11 @@
 ---
 layout: post
-title:  "Notes of MIT6001x W1 Python Basics V1 Introduction"
+title:  "Notes of W1_1 PythonBasics-Introducion of MIT6001x"
 date:   2017-09-06 11:45:45 +0800
 categories: notes
 ---
 
 This is a note of MIT6001x week 1: Python Basics.MIT6001x W1 Python Basics Video No.1 Introduction. The transcription is divided by meanings, and words unfamiliar for me are made Italia. I would like to type the content in video slides here, because I have found the intend that I don't read and understand them seriously.
-
-## Exercise 1
-
-> True or False? A computational mode of thinking means that everything can be viewed as a math problem involving numbers and formulas.
-
-Something cannot be turned into conputational problems. So I chose False. 
-
-But this question is asking about **computational mode of thinking**, not computable problems.
 
 ## Transcription
 
@@ -215,6 +207,14 @@ So simple primitive calculations very quickly.
 
 ### SIMPLE CALCULATIONS ENOUGH?
 
+* Searching the World Wide Web
+  * 45B pages; 1000 words/page; 10 operations/word to find
+  * Need 5.2 days to find something using simple operations
+* Playing chess
+  * Average of 35 moves/setting; look ahead 6 moves; 1.8B boards to check; 100 operations/choice
+  * 30 minutes to decide each move
+* Good algorithm design also needed to accomplish a task!
+
 ![](https://ws1.sinaimg.cn/large/006tKfTcgy1fj9vryroycj311c0s0dqn.jpg)
 
 Is that enough?
@@ -277,6 +277,11 @@ going to learn throughout this course.
 
 ### ENOUGH STORAGE?
 
+- What if we could just pre-compute information and them look up the answer
+  - Playing chess as an example
+    - Experts suggest 10**123 different possible games
+    - Only 10**80 atoms in the observable universe
+
 ![](https://ws1.sinaimg.cn/large/006tKfTcly1fj9w37xd3cj311a0s2jxz.jpg)
 
 What about storage?
@@ -303,6 +308,13 @@ use **brute force** or **pre-compute**.
 We need to be clever about how we come up with solutions.
 
 ### ARE THERE LIMITS?
+
+- Despite its speed and size, a computer dose have limitations
+  - Some problems still too complex
+    - Accurate weather prediction at a local scale
+    - Cracking encryption schemes
+  - Some problems are fundamentally impossible to compute
+    - Predicting whether a piece of code will always halt with an answer for any input
 
 ![](https://ws4.sinaimg.cn/large/006tKfTcgy1fj9w9lwshkj311e0s4the.jpg)
 
