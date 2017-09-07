@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Notes of W1_2 PythonBasics-Knowledge of MIT6001x"
+title:  "Notes of PythonBasics-Operators and Branching, W1_7 of MIT6001x"
 date:   2017-09-07 10:35:39 +0800
 categories: notes
 ---
