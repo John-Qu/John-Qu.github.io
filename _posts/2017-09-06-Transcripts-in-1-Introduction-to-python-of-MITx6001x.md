@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Transcripts in 1 Introducion to Python of MITx6001x"
-date:   2017-09-06 11:45:45 +0800
+date:   2017-09-08 11:45:45 +0800
 categories: notes
 ---
 
