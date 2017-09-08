@@ -1,16 +1,29 @@
 ---
 layout: post
-title:  "Notes of W1_E2 PythonBasics of MIT6001x"
+title:  "Exercises in 1 Introduction to Python of MITx6001x"
 date:   2017-09-07 11:20:11 +0800
 categories: notes
 ---
 
-This is a note of MIT6001x W1 Python Basics Exercise 2. 
+This is a note of exercises in 1 Introduction to Python of MITx6001x course.
+
+## Exercise 1 
+
+> True or False? A computational mode of thinking means that everything can be viewed as a math problem involving numbers and formulas.
+>
+> * True correct 
+> * False incorrect
+
+Something cannot be turned into conputational problems. So I chose False. 
+
+But this question is asking about **computational mode of thinking**, not computable problems.
+
+## Exercise 2
 
 > A recipe for deducing the square root involves guessing a starting value for y. Without another recipe to be told how to pick a starting number, the computer cannot generate one on its own.
 >
-> * True correct
-> * False me
+> - True correct
+> - False me
 
 I thought the guessing is not important for this recipe, because it can start with any number. 
 
