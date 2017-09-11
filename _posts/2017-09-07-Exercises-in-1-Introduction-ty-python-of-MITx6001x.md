@@ -38,3 +38,12 @@ The "Show Answer" says:
 > Examples of such recipes include to use a fixed number, or a pseudorandom number generator, to give 2 examples. So by itself, the recipe in question is **not sufficient to be made into a real program**. 
 >
 > This question is indicative of how you should not assume you have more info than what the problem specifies.
+
+## Exercise 6
+
+2017-09-09
+
+`- - 4`is
+
+4, no error. Primitive, operator, primitive, can be interpreted smartly. Here, `- 4` can be treated as an integer as `-4`, so there is no syntax error.
+
