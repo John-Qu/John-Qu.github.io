@@ -47,3 +47,8 @@ The "Show Answer" says:
 
 4, no error. Primitive, operator, primitive, can be interpreted smartly. Here, `- 4` can be treated as an integer as `-4`, so there is no syntax error.
 
+## Exercise 10
+
+`5/2 == 5/2.0` is True, because 4/2 returns 2.0, with `float` type.
+
+`round(2.6)` is 3, with `int` type.
