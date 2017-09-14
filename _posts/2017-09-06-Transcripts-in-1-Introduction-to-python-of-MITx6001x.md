@@ -5,7 +5,7 @@ date:   2017-09-08 11:45:45 +0800
 categories: notes
 ---
 
-This is a note of MIT6001x week 1: Python Basics.MIT6001x W1 Python Basics Video No.1 Introduction. The transcription is divided by meanings, and words unfamiliar for me are made Italia. I would like to type some of the content in video slides here, because I have found the intend that I don't read and understand them seriously.
+This is a note of MIT6001x 1 Introduction. The transcription is divided by meanings, and words unfamiliar for me are made Italia. I would like to type some of the content in video slides here, because I have found the intend that I don't read and understand them seriously.
 
 ## Video: Introduction
 
@@ -1353,9 +1353,11 @@ So we've now seen primitives.
 We've also seen means of combination, simple arithmetic
 things, expressions that we can use to compute values.
 
+### BINDING VARIABLES AND VALUES
+
 ![](https://ws2.sinaimg.cn/large/006tKfTcgy1fjd5001m3aj30si0la10u.jpg)
 
-I said earlier there was one last piece, abstraction,
+I said earlier there was one last piece, abstrac tion,
 ways of giving names to things.
 So I can refer to a value just by its name and reuse it.
 We're going to see other kinds of abstractions
@@ -1393,6 +1395,8 @@ associated with it a value.
 And as we said, we can just retrieve it
 by asking what's the value associated with that name.
 
+### ABSTRACTING EXPRESSIONS
+
 ![](https://ws4.sinaimg.cn/large/006tKfTcgy1fjd50fd1xtj30si0laq7f.jpg)
 
 Once we have that, we can start putting together
@@ -1421,7 +1425,7 @@ Those expressions also tell me something about what
 I'm trying to capture.
 And so those names turn out to be really valuable.
 
- 
+###  PROGRAMMING vs MATH
 
 ![](https://ws2.sinaimg.cn/large/006tKfTcgy1fjd54h4qjgj30se0le11s.jpg)
 
@@ -1467,6 +1471,8 @@ as just +=.
 And that is simply short for saying radius += 1 is radius
 equals radius incremented by 1.
 
+### CHANGING BINDINGS
+
 ![](https://ws3.sinaimg.cn/large/006tKfTcgy1fjd56vul6qj30se0lg7e5.jpg)
 
 The last piece here is you saw we could change the bindings.
@@ -1503,6 +1509,11 @@ giving names to things.
 But so far, all we've been able to do with these pieces
 is just behave like we're a simple calculator.
 We can do arithmetic.
+
+### COMPARISON OPERATORS ON int and float
+
+![](https://ws1.sinaimg.cn/large/006tKfTcgy1fjitvsnrdpj317i0wi0w7.jpg)
+
 Let's add one more piece in, which
 is the ability to make decisions based on tests.
 And for that, we have to compare things.
@@ -1555,6 +1566,11 @@ You're going to get a chance to explore all of these,
 but these make sense because they're simple arithmetic
 things other than that double equal sign-- which
 as I said, is there because equal is already reserved.
+
+### LOGIGCAL OPERATORS ON bools
+
+![](https://ws2.sinaimg.cn/large/006tKfTcgy1fjityphyytj317g0wigok.jpg)
+
 Once we have logical expressions,
 we also need to be able to combine them.
 I might want to say, is something less than this
@@ -1568,6 +1584,9 @@ Not a is true of a is false.
 It's false if a is true.
 Once I've got those pieces, I can
 put together more complicated expressions to decide tests.
+
+![](https://ws3.sinaimg.cn/large/006tKfTcgy1fjiu0wtjukj31000fm1kx.jpg)
+
 How might we use these?
 Well, here's a simple little example.
 This is actually a map of MIT.
@@ -1577,6 +1596,9 @@ And I want to give instructions to a student to find them.
 All right.
 This is a complicated map, but we could
 use a simpler version of it.
+
+![](https://ws4.sinaimg.cn/large/006tKfTcgy1fjiu1xv2rcj317m0wkgri.jpg)
+
 I've got my student.
 So over here with his backpack ready to
 find that free food, which is a way over here.
@@ -1599,6 +1621,11 @@ In this case, trying to find the free food.
 Oh, yeah, I need one more thing, which
 is to test when I found the food to know when to stop.
 Simple tests.
+
+### BRANCHING PROGRAMS
+
+![](https://ws4.sinaimg.cn/large/006tKfTcgy1fjiu2q5w5oj317m0wedmn.jpg)
+
 With those ideas, I can put together
 the first kind of actually more reasonable
 or interesting rather program called a branching program.
@@ -1628,6 +1655,11 @@ want to do something even when it's not true, I can skip that.
 With that in mind, I can start now
 building a little bit more interesting programs.
 And so here's a simple example.
+
+### A SIMPLE EXAMPLE 
+
+![](https://ws3.sinaimg.cn/large/006tKfTcgy1fjiu3y43zxj317g0wmgoq.jpg)
+
 There are some pieces here we're going to come back to.
 Don't worry about them.
 Pieces like input, which is going to give me
@@ -1673,6 +1705,11 @@ I'm going to pick back up the rest of the else.
 And more importantly, when I get done there
 it tells me where the rest of the code picks up.
 A simple example of a branching program.
+
+### SOME OBSERVATIONS
+
+![](https://ws3.sinaimg.cn/large/006tKfTcgy1fjiu6c0zckj317g0wkgqu.jpg)
+
 I've already said this, but I want to recap it.
 I've got a test, it evaluates the true--
 when in fact, in this case x divided by 2
@@ -1687,6 +1724,11 @@ a nice visual structure for seeing where the code is.
 To see the semantic structure of the code.
 What's the true block?
 What's the false block?
+
+### NESTED CONDITIONS
+
+![](https://ws1.sinaimg.cn/large/006tKfTcgy1fjiu7zq8xhj317g0wi77t.jpg)
+
 Now, it turns out that you can have nested conditionals.
 Inside of a block I could also have a conditional.
 And that's perfectly fine.
@@ -1700,6 +1742,11 @@ But it's going to do something that
 based on what the value of x is, it prints out whether it's
 divisible by 2 and 3, by 2 and not 3, or by 3 and not 2
 as it runs through that sequence of branches appropriately.
+
+### COMPOUND BOOLEANS
+
+![](https://ws2.sinaimg.cn/large/006tKfTcgy1fjiu96871qj317i0wm0vm.jpg)
+
 And finally, we can have compound Booleans.
 As I said, I have things that can be combined.
 This is a Boolean.
@@ -1723,6 +1770,11 @@ If this is true, do something.
 If it's false, but this is true do something.
 If that's also false, but this is true do something.
 And so on.
+
+### CONTROL FLOW - BRANCHING
+
+![](https://ws2.sinaimg.cn/large/006tKfTcgy1fjiube2c6xj317i0win2b.jpg)
+
 This just then pulls them together.
 I've got a basic conditional.
 If this condition is true, do a sequence of expressions.
@@ -1731,6 +1783,11 @@ Or I can have an if, a sequence of elifs, and an else.
 And again, notice how the indentation
 tells us which things to do associated
 with which block of code.
+
+### INDENTATION
+
+![](https://ws1.sinaimg.cn/large/006tKfTcgy1fjiuen92rfj317g0wa0x8.jpg)
+
 That indentation is how we are going to capture
 other pieces as well.
 And it doesn't have to just be conditionals.
@@ -1751,6 +1808,11 @@ Oh, there is no code here, so nothing happens.
 It simply skips out to the end and jumps past it.
 Again, I invite you to try this to see if it works
 the way I've described it.
+
+### = VS ==
+
+![](https://ws4.sinaimg.cn/large/006tKfTcgy1fjiugao6vrj317a0wg42w.jpg)
+
 What I want you to see is the form of it.
 One other piece I want to remind you of
 is the fact that when we do comparisons
@@ -1766,6 +1828,11 @@ But remember, this is a place where
 when I'm doing a comparison I want
 to use the double equal sign in order
 to make the comparison of two values and return a Boolean.
+
+### WHAT HAVE WE ADDED?
+
+![](https://ws1.sinaimg.cn/large/006tKfTcgy1fjiuh4y99rj31780wgdjh.jpg)
+
 OK.
 What have we added?
 First, simple kind of program.
