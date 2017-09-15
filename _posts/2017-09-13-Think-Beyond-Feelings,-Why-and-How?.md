@@ -49,3 +49,55 @@ Even his has retired from University of Newyork's Delphi College at 1989, Prof. 
 
 ---
 
+## Why are this book come to earth?
+
+(Recite these citations)
+
+The author funded it necessary to call balance back to feeling and thinkings. There is a tendency of neglecting thinking.
+
+> When the first edition of this book appeared in 1975, the dominant intel- lectual focus was still subjectivity, *feelings. *That focus, the legacy of the 1960s, was originally a necessary reaction to the rationalism理性主义 and behaviorism行为主义 that preceded it. 
+>
+> It declared, in effect(as a fact, as a result): 
+>
+> “People are not robots. They are more than the sum total of their physiology. They have hopes, dreams, emotions. 
+>
+> No two humans are alike—each has a special perspective, a unique way of perceiving the world. 
+>
+> And any view of humanity that ignores this subjective side is a distortion.” 
+
+In his first edition, Mr. Ruggiero explained its rationale(理由逻辑) as follows:
+
+> > The emphasis on subjectivity served to correct a dangerous oversimplification. But it is the kind of reaction that cannot be sustained for long without causing an even worse situation—the neglect of thinking. 
+> >
+> > Worse for two reasons. First, because we live in an age of manipulation. Armies of hucksters and demagogues stand ready with the rich resources of psychology to play upon our emotions and subconscious needs to persuade us that superficial is profound, harmful is beneficial, evil is virtuous. And feelings are especially vulnerable to such manipulation.
+> >
+> > Secondly, because in virtually every important area of modern life— law, medicine, government, education, science, business, and community affairs—we are beset with serious problems and complex issues that demand careful gathering and weighing of facts and informed opinions, thoughtful consideration of various conclusions or actions, and judicious(审慎的) selection of the best conclusion or most appropriate action. . . .
+> >
+> > ...
+> >
+> > There is an unfortunate tendency among many to view feeling and thought as mutually exclusive, to force a choice between them. If we focus on one, then in their view we must reject the other. But this is mis- taken. Feeling and thought are perfectly complementary. Feeling, being more spontaneous, is an excellent beginning to the development of con- clusions. And thought, being more deliberate, provides a way to identify the best and most appropriate feeling. Both are natural.
+> >
+> > Thinking, however, is less automatic than feeling. To do it well demands a systematic approach and guided practice.
+
+So, as the last sentence in the above paragraph said, this book was aimed to solve the problem by advising the approaches, and providing the practices.
+
+Now, in this new edition:
+
+> There is little disagreement that the challenges of the new millennium demand minds that can move beyond feelings to clear, impartial, critical problem solving and decision making.
+
+## What is the skeleton of this book?
+
+The author has made it clear to us:
+
+>  The first section explains the psychological, philosophical, and social context in which critical thinking takes place and describes the habits and attitudes that enhance such thinking. 
+>
+> The second section helps students recognize and overcome common errors in thinking. 
+>
+> The third section provides a step-by-step strategy for dealing with issues.
+
+---
+
+2017-09-15 above
+
+---
+
