@@ -5,7 +5,7 @@ date:   2017-09-14 15:35:53 +0800
 categories: notes
 ---
 
-This is a note of exercises in 3. Simple Algorithm of MITx6001x course.
+This is a note of exercises in [3. Simple Algorithm of MITx6001x course](https://courses.edx.org/courses/course-v1:MITx+6.00.1x+2T2017_2/courseware/0de4fecc5a9a4749923133fcf4de181f/62f08cc899344863a1ab678aee506dec/?activate_block_id=block-v1%3AMITx%2B6.00.1x%2B2T2017_2%2Btype%40sequential%2Bblock%4062f08cc899344863a1ab678aee506dec).
 
 ## Exercise 2 
 
@@ -130,3 +130,14 @@ print('Game over. Your secret number was: ' + str(guess))
 ### Question:
 
 * How can I wrap the `input`'s string, without those annoying spaces? I don't think this question vital, so I think it's better to leave it here. I might encounter a code example soon, which obey python guide.
+
+## Exercise 3
+
+> True or False? The internal representation of the decimal number 1/10 = 0.1 requires an infinite number of digits.
+
+It's true. Because 1/10 cannot be represented as sum(int/2**k).
+
+> After many computations, you get two floating numbers stored in variables `a` and `b`. Your code compares the numbers with `a == b`.
+
+Not "always", not "never", it is "sometimes" program can interpret it well, depending on whether the program language's designer.
+

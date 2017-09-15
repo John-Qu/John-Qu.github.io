@@ -1,15 +1,18 @@
 ---
 layout: post
 title:  "Transcripts in 1 Introducion to Python of MITx6001x"
-date:   2017-09-08 11:45:45 +0800
+date:   2017-09-15 11:45:45 +0800
 categories: notes
 ---
 
-This is a note of MIT6001x 3. Simple Algorithms. From now on, I would not insert course slides into transcripts, because I find it a bit annoying and time consuming.
+This is a collection of transcripts of [MIT6001x 3. Simple Algorithms](https://courses.edx.org/courses/course-v1:MITx+6.00.1x+2T2017_2/courseware/0de4fecc5a9a4749923133fcf4de181f/62f08cc899344863a1ab678aee506dec/?activate_block_id=block-v1%3AMITx%2B6.00.1x%2B2T2017_2%2Btype%40sequential%2Bblock%4062f08cc899344863a1ab678aee506dec)'s videos. 
 
 ## Video: So Far...
 
 ...
+
+### 1 LOOPS and STRINGS, GUESS-and-CHECK, APPROXIMATION, BISECTION![](https://ws2.sinaimg.cn/large/006tKfTcgy1fjk3f4lneoj31dc12042m.jpg)
+
 In the last lecture, we added looping variants.
 We had for loops, we had while loops,
 we had the notion of iteration.
@@ -23,6 +26,9 @@ We talked about it a little bit earlier on,
 but we're going to use it to actually
 look at ways to generate algorithms
 that can start to do some more interesting kinds of things.
+
+### 2 REVIEWING LOOPS![](https://ws3.sinaimg.cn/large/006tKfTcgy1fjk3f37sduj31e212e43z.jpg)
+
 Just to review, I want to remind you
 what we did inside of loops.
 Here's an example of some code that's
@@ -58,6 +64,9 @@ but I want to remind you of what loops do.
 And as before, I don't need to do that actual version
 of answer equal answer plus 1, I could use plus equal
 as a variation of it.
+
+### 3 REVIEWING STRINGS![](https://ws3.sinaimg.cn/large/006tKfTcgy1fjk3f1gyb7j31ee124450.jpg)
+
 We also talked about strings earlier,
 and I just want to remind you of those,
 because we're going to use them in this lecture as well.
@@ -79,6 +88,9 @@ And if I have a string three long,
 and I try and get something three or bigger,
 it's going to complain, telling me
 that I've tried to access beyond the end of the string.
+
+### 4 STRINGS![](https://ws2.sinaimg.cn/large/006tKfTcgy1fjk3ezc2fxj31es126aho.jpg)
+
 We also saw slicing in strings.
 This lets us go into a string of pull out pieces of the string.
 And here we saw we can specify a start point, a stop
@@ -96,6 +108,7 @@ So I start here, and I stop just before the sixth one.
 So 3, 4, 5.
 I'm going to pull that out, which gives me
 the piece that I wanted there.
+
 One last thing about strings is that they are
 what we call an immutable type.
 You can't change them.
@@ -141,6 +154,9 @@ new version of a string.
 The original string is still stuck in memory.
 It's just floating around.
 I can't access it anymore.
+
+### 5 FOR LOOPS RECAP![](https://ws3.sinaimg.cn/large/006tKfTcgy1fjk3ewy094j31dy12caft.jpg)
+
 Finally, remember for loops, the quick recap.
 We have that idea of having a loop variable that
 iterates over a set of values.
@@ -152,6 +168,9 @@ to be executed for each value of the variable that I use.
 And so range is a nice way to iterate over numbers,
 but a loop, a for loop variable, can iterate over any set
 of values, not just numbers.
+
+### 6 STRINGS AND LOOPS![](https://ws4.sinaimg.cn/large/006tKfTcgy1fjk3ev2vjej31e212cjvd.jpg)
+
 And so for example, I could loop over strings.
 That sounds kind of neat.
 So here's a simple little piece of code.
@@ -193,6 +212,9 @@ I can successively enumerate each
 of the elements of that piece.
 So now I've got strings as something
 which I can use as parts of loops, and that's really nice.
+
+### 7 CODE EXAMPLE![](https://ws1.sinaimg.cn/large/006tKfTcgy1fjk3etov6cj31cs124n2q.jpg)
+
 Let me give you one last example, sort of a fun example.
 I'm going to set up a little loop that is going to run over
 basically a set of words.
@@ -211,6 +233,7 @@ And then I'm going to increment i, and I'm going to keep going.
 So, again, it's a while loop, but I'm using the character
 inside there to loop over particular elements
 of a string.
+
 Let's see what this does.
 So here's the code.
 And if I load it into my environment,
@@ -250,11 +273,14 @@ I'm changing it inside the loop, but in the loop
 I've got another one, which is right here where
 I'm looping over all of the elements of a string.
 I can do it either way, and that works out really well.
-On that cheery note, we're going to move on to another topic.
+On that **cheery note**, we're going to move on to another topic.
 
 ## Video: Approximate Solutions
 
 ...
+
+### 9 APPROXIMATE SOLUTIONS![](https://ws3.sinaimg.cn/large/006tNc79gy1fjk3uc5zknj31e41200x2.jpg)
+
 We've been using exhaustive algorithms, guess and check
 algorithms to solve some simple numerical problems.
 But if you think about it, they've
@@ -281,6 +307,9 @@ But I'm going to now have to pick examples
 where I take small steps in order to generate the guess
 and check to see if I'm close enough.
 Let's see what that might look like.
+
+### 10 APPROXIMATE SOLUTIONS![](https://ws2.sinaimg.cn/large/006tNc79gy1fjk3uan2d6j31d212a78t.jpg)
+
 Here, the idea is I have to define
 what's a good enough solution.
 So I want to start with a guess, say, one.
@@ -317,6 +346,9 @@ And so I have to think carefully about how I do both of those.
 But let's look at that idea to see
 how I can still use the idea of guess and check, but now
 with things that could compute the cube root of anything.
+
+### 11 APPROXIMATE SOLUTION - cube root![](https://ws3.sinaimg.cn/large/006tNc79gy1fjk3u923rcj31dm12e0y8.jpg)
+
 So here's an example.
 I'm going to start off with some value for the thing I'm
 trying to find the cube of.
@@ -346,6 +378,7 @@ is small enough.
 And at that point, I'm going to stop.
 And I'm going to return both how many guesses did I run
 and some information about did I find the right answer.
+
 Let's see what happens if I run that.
 So there's a piece of code.
 Let me start with 27, which is the thing I had before.
@@ -374,6 +407,7 @@ find things that were cube root of integers.
 And now I've got something where the cube root isn't an integer,
 but I can still find it.
 This took almost 31,000 times through the loop.
+
 So I could say, you know what?
 I want to use something where I'm going
 to step a little more broadly.
@@ -386,6 +420,7 @@ be in hundreds, I can run that.
 And if I do that-- whoops, sorry.
 It decided it didn't like that.
 Let me think about why it didn't like that.
+
 Ah, what's happened here?
 It's off in an infinite loop.
 And the reason it's off in an infinite loop
@@ -398,6 +433,7 @@ And I'm going to interrupt it to hold it back.
 That's something I need to fix.
 So if I go back to a little bit better increment
 here and rerun it, I get back to the thing I wanted to have.
+
 OK, how would I fix that?
 I need to make sure that the guess isn't too big.
 If you think, and I'm going to go back to where I was,
@@ -424,6 +460,9 @@ It's to remind you that as you make changes to the code,
 you need to think about the consequences.
 And this was one where my test wasn't
 capturing all of the cases.
+
+### 12 Some observations![](https://ws3.sinaimg.cn/large/006tNc79gy1fjk3u780oej31cw12842q.jpg)
+
 So what can I say about this particular algorithm?
 Step could be any small number.
 If it's too small, it's going to take a long time.
@@ -463,6 +502,8 @@ So here's an example of that and a wonderful tool
 that we're going to see a lot as we go through the course.
 It's called bisection search.
 
+### 14 BISECTION SEARCH
+
 ![14](https://ws2.sinaimg.cn/large/006tKfTcgy1fjj2rgu7oej311w0se418.jpg)
 
 Let's think about a square root.
@@ -480,6 +521,8 @@ pick a number in the middle between 1 and say 25?
 If we're lucky, that's going to be close enough.
 Well, it's probably not close enough in this case.
 We know where it is, but it's a nice start.
+
+### 15 BISECTION SEARCH
 
 ![15](https://ws2.sinaimg.cn/large/006tKfTcgy1fjj2rfmtwpj311s0siq69.jpg)
 
@@ -517,6 +560,8 @@ I'm losing half the values.
 Really cool.
 Let's see what happens if we wanted
 to actually make code for it.
+
+### 16 EXAMPLE OF SQUARE ROOT
 
 ![16](https://ws3.sinaimg.cn/large/006tKfTcgy1fjj2rcjb6rj311m0sejur.jpg)
 
@@ -576,6 +621,8 @@ You can see, if you look at the printout,
 how quickly it narrows in on the range.
 That's really cool.
 
+### 17 BISECTION SEARCH - cube root
+
 ![17](https://ws1.sinaimg.cn/large/006tKfTcgy1fjj2rb95i5j311c0scwi3.jpg)
 
 Do the same thing with cube root.
@@ -606,6 +653,8 @@ now the difference is that the root doesn't
 lie between the number and x itself,
 or it lies between 0 and that number.
 
+### 18 BISECTION SEARCH CONVERGENCE
+
 ![18](https://ws4.sinaimg.cn/large/006tKfTcgy1fjj2r9y9lmj31100si425.jpg)
 
 But that's an easy way to change,
@@ -634,6 +683,8 @@ I could modify to look at negative cubes,
 and I could modify it to look at things where
 the answer is less than 1.
 
+### 19 x < 1
+
 ![19](https://ws3.sinaimg.cn/large/006tKfTcgy1fjj2r79437j310s0siwg6.jpg)
 
 And so for example, if x is less than 1,
@@ -649,6 +700,8 @@ Start with a basic set of code, check to see what it runs on,
 and then decide if I wanted to use the same code,
 how could small changes have it run
 on other kinds of solutions?
+
+### 20 SOME OBSERVATIONS
 
 ![20](https://ws1.sinaimg.cn/large/006tKfTcgy1fjj2r6bd3jj31160skdim.jpg)
 
@@ -675,6 +728,9 @@ as we go through the course.
 ## Video: Floats and Fractions
 
 ...
+
+### 22 DEALING WITH `float`'s![](https://ws1.sinaimg.cn/large/006tKfTcgy1fjk090olf2j319y0yu42i.jpg)
+
 We've just seen an example of an algorithm that
 computes floating point numbers as an answer,
 and we've been playing with floats earlier on.
@@ -711,6 +767,9 @@ every number in binary, whether it's an integer
 or it's a float.
 How would we use that idea to think about how do we represent
 floating point numbers?
+
+### 23 CONVERTING DECIMAL INTEGER TO BINARY![](https://ws1.sinaimg.cn/large/006tKfTcgy1fjk08z74dlj31a60ykdl4.jpg)
+
 Well, let's think about how we could convert a decimal integer
 into a binary representation, and then we'll
 do the fraction portion of it.
@@ -746,6 +805,9 @@ That's the low order bit.
 Divide integer-wise by 2, shifts right.
 Do the same thing until I've exhausted the entire integer
 representation.
+
+### 24 DOING THIS IN PYTHON![](https://ws4.sinaimg.cn/large/006tKfTcgy1fjk08xamhnj31a00ywadd.jpg)
+
 So here's a little piece of code that would do exactly that.
 If the number is less than 0, I'm
 going to put on a flag that says it's negative.
@@ -773,6 +835,9 @@ it gives me back 10011, exactly as I said.
 All right, cool, so I can take integers and convert them
 into binary, but I started talking about floats.
 So how do I deal with the fraction part of this?
+
+### 25 WHAT ABOUT FRACTIONS?![](https://ws1.sinaimg.cn/large/006tKfTcgy1fjk08w5hlej319a0yydkf.jpg)
+
 Well, I can do almost the same thing.
 Let's take an example.
 3/8 is 0.375.
@@ -788,6 +853,7 @@ I just did that, I know how to do that.
 And then when I'm done, just divide by that same power of 2,
 and I've got no representation in binary
 of the fractional part of this number.
+
 In this case, I picked an easy example.
 0.375, if I multiply it by 2 to the third, or 8,
 that's going to get me a 3 in decimal.
@@ -798,6 +864,7 @@ And then I divide by 2 to the third, which simply says
 shift it right three points.
 And there is the binary representation
 of that decimal fraction.
+
 That's cool, right?
 It's a really neat idea.
 What am I doing?
@@ -810,6 +877,8 @@ And I'm simply taking advantage of powers of 2
 because that's simply moving the placeholder, if you like,
 for the decimal point, or I should say the binary point
 in a binary representation.
+
+26 ![](https://ws4.sinaimg.cn/large/006tKfTcgy1fjk08un74yj31a60yi79b.jpg)
 
 There's code that'll do it.
 I'm not going to walk through it.
@@ -853,6 +922,9 @@ But with that, we now have a way of understanding
 how we can represent floating point numbers inside a machine
 where everything is stored just in terms of binary bits.
 What are some of the implications of this?
+
+### 27 SOME IMPLICATIONS![](https://ws4.sinaimg.cn/large/006tKfTcgy1fjk08syr0bj319w0yqdkn.jpg)
+
 If there is no integer p such that a power of 2
 multiplied by x gives me a whole number,
 then the best I'm going to get is an internal representation
@@ -890,6 +962,7 @@ we're in good shape.
 ## Video: Newton-Raphson
 
 ...
+
 Now that we've got an understanding of floating point
 numbers, now that we've got the idea of generalizing guess
 and check methods to do things, it
@@ -907,6 +980,9 @@ to give you a sense of the power of computation we can now do.
 I'm going to stick with the idea of finding roots of things
 but show you how you can actually capture things
 very dramatically.
+
+### 29 NEWTON-RAPHSON![](https://ws3.sinaimg.cn/large/006tKfTcgy1fjk2r3jtgpj31ec12cdks.jpg)
+
 And that's to use a technique called Newton-Raphson.
 It was discovered by Sir Isaac Newton three or four centuries
 ago, also discovered by Raphson at about the same time.
@@ -914,6 +990,7 @@ And here's the basic idea behind Newton-Raphson.
 It's a general approximation algorithm
 that's going to let us find roots of any polynomial in one
 variable.
+
 So that could be, for example, the polynomial like this-- I've
 got p of x is some coefficient times x to the n
 plus some other coefficient times x to the n minus 1
@@ -946,6 +1023,9 @@ So Newton showed, if I got a good guess,
 I can make it better by taking p of g
 divided by the derivative of p of g
 and subtracting it off of g.
+
+### 30 NEWTON-RAPHSON![](https://ws1.sinaimg.cn/large/006tKfTcgy1fjk2r1x8e7j31di12ajv7.jpg)
+
 So in the simple case, if I've got an equation that
 is some constant times x squared plus another constant,
 then the first derivative of c times x squared is just 2cx.
@@ -958,6 +1038,9 @@ is g squared minus k, take the derivative of that point, which
 is just 2g, take that ratio and subtract it off from g.
 Cool.
 We ought to be able to build that, and we can.
+
+### 31 NEWTON-RAPHSON![](https://ws3.sinaimg.cn/large/006tKfTcgy1fjk2r0hm81j31eu12cjw3.jpg)
+
 It's a nice tight little iterative loop.
 So here's a nice way of generating the guesses.
 OK, and I'm going to have some epsilon that's going to let
@@ -995,6 +1078,9 @@ I know you don't believe it, but it really
 is cool, because it lets me not only find
 cube roots and square roots, it lets me find the solution
 to any equation very quickly.
+
+### 32 Iterative algorithms![](https://ws4.sinaimg.cn/large/006tKfTcgy1fjk2qyvk9ej31eo12g0ws.jpg)
+
 So what we've now seen is that this idea of a guess and check
 method builds on reusing the same code over and over again.
 It takes the idea of a looping mechanism
