@@ -5,7 +5,7 @@ date: 2017-09-14 17:29:18 +0800
 categories: Beyond_Feelings
 ---
 
-I heard that it is most important in one's lift to make choice. Problem solving and acting efficiently are important, which are what we have been taught in our formal growth. However, they failed to educate how to make decisions in choosing colledge major, city to live, marriage mate, time and place to buy a house, how to invest money, career route, and roll in family life. I am lucky to make some good ones with the help of my families, but not so wise in choosing major and making money. Now I'm on the cross road choosing a new way of life, so it is most important not to miss Prof. Ruggiero's *Beryond Feelings - A Guide to Critical Thinking* again, which I had bought from senior shoal mate at Dalian but abandoned to library at Shanghai.
+I heard that it is most important to make choice in one's life. Problem solving and acting efficiently are important, which are what we have been taught in our formal growth. However, they failed to educate us how to make decisions in choosing colledge major, city to live, marriage mate, time and place to buy a house, how to invest money, career route, and roll in family life. I am lucky to make some good ones with the help of families, but not so wise in choosing major and making money. Now I'm on the cross road choosing a new way of life, so it is most important not to miss Prof. Ruggiero's *Beryond Feelings - A Guide to Critical Thinking* again, which I had bought from senior school mate at Dalian but abandoned to library at Shanghai.
 
 ## What kind of book is it?
 
@@ -91,13 +91,44 @@ The author has made it clear to us:
 
 >  The first section explains the psychological, philosophical, and social context in which critical thinking takes place and describes the habits and attitudes that enhance such thinking. 
 >
-> The second section helps students recognize and overcome common errors in thinking. 
+>  The second section helps students recognize and overcome common errors in thinking. 
 >
-> The third section provides a step-by-step strategy for dealing with issues.
+>  The third section provides a step-by-step strategy for dealing with issues.
+
+The author address this issue again in Introduction chapter again:
+
+> The first, “The Context,” will help you understand such important concepts as *individuality, critical thinking, truth, knowledge, opinion, evidence*, and *argument *and overcome attitudes and ideas that obstruct critical thinking.
+>
+> The second section, “The Pitfalls,” will teach you to recognize and avoid the most common errors in thinking.
+>
+> The third section, “A Strategy,” will help you acquire the var- ious skills used in addressing problems and issues. This section includes tips on identifying and overcoming your personal intellectual weak- nesses as well as techniques for becoming more observant, clarifying issues, conducting inquiries, evaluating evidence, analyzing other people’s views, and making sound judgments.
+
+I think it is wise to recite these paragraphs.
 
 ---
 
 2017-09-15 above
+
+---
+
+## What aspects does critical thinking affects in our life?
+
+> It is no exaggeration to say that critical thinking is one of the most important subjects you will study in college regardless of your academic major. The quality of your schoolwork, your efforts in your career, your contributions to community life, your conduct of personal affairs—all will depend on your ability to solve problems and make decisions.
+
+* quality of schoole work
+* efforts in career
+* contributions to community life
+* conduct of personal affairs
+
+## How to read well and practice well?
+
+Take the applications at the end of each chapter as a challenge to my critical thinking and as a help to exercise my skills.
+
+Looking ahead for concepts and precedures.
+
+---
+
+2017-09-18 above
 
 ---
 
