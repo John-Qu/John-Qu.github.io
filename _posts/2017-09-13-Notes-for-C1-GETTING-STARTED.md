@@ -26,3 +26,17 @@ Prof. Guttag arise two examples to illustrate the speed and storage abilities. B
 
 We have sence with how fast light run, all the books' many, but no vivid sence with billon and 100GB-3,000,000 tons.
 
+## Why does only the smallest problems could be attacked computationally in history?
+
+> For most of human history, computation was limited by the speed of calculation of the human brain and the ability to record computational results with the human hand.
+
+## What is computational thinking?
+
+imperative knowledge vs declarative knowledge
+
+> **Declarative knowledge** is composed of statements of fact. For example, “the square root of x is a number y such that y*y = x.” This is a statement of fact. Unfortunately it doesn’t tell us how to find a square root.
+
+> **Imperative knowledge** is “how to” knowledge, or recipes for deducing information.
+
+> A bit more formally, an **algorithm** is a finite list of instructions that describe a computation that when executed on a provided set of inputs will proceed through a set of well-defined states and eventually produce an output.
+
