@@ -919,7 +919,9 @@ and how to use those to store new values as I do bindings.
 
 ...
 
-32
+### 32 KEYWORD ARGUMENTS AND DEFAULT VALUES
+
+![](https://ws4.sinaimg.cn/large/006tKfTcgy1fjps1xo423j319o0yg42s.jpg)
 
 Now that we've introduced the idea
 of a definition, a function in particular,
@@ -949,6 +951,8 @@ If it's false, I'm going to do that.
 OK?
 
 33
+
+![](https://ws4.sinaimg.cn/large/006tKfTcgy1fjps31zzk7j319s0yiwj7.jpg)
 
 Now, here's one of the nice variations on it.
 First of all, that first call does what I'd expect.
@@ -988,7 +992,7 @@ and reverse equal to false.
 That's nice if I forget the order
 or if I just decide I want to call them in a different way.
 
-34
+34![](https://ws1.sinaimg.cn/large/006tKfTcgy1fjps3hh6g5j319a0yc795.jpg)
 
 I can do some other things here though.
 I can change the definition of my function to give a default
@@ -1019,7 +1023,9 @@ values into parameters of definitions of functions.
 
 ...
 
-36
+### 36 SPECIFICATIONS
+
+![](https://ws3.sinaimg.cn/large/006tKfTcgy1fjps5d53i9j318o0y60wo.jpg)
 
 We've now begun to look at functions.
 We're going to do more of those in a second,
@@ -1046,7 +1052,7 @@ It says, here's what the function
 will do provided it's been called in a manner
 consistent with the assumptions.
 
-37
+37 ![](https://ws3.sinaimg.cn/large/006tKfTcgy1fjps5tu6kvj318c0y8gnx.jpg)
 
 The way we do it in Python is to use this idea of a docstring,
 and there's my earlier definition of is even.
@@ -1074,7 +1080,9 @@ and where can I use it.
 
 ...
 
-39
+### 39 WHAT IS RECURSION
+
+![](https://ws2.sinaimg.cn/large/006tKfTcgy1fjps6f7reqj31920yidkp.jpg)
 
 Let's go up a level just for a second.
 What have we've built so far?
@@ -1121,7 +1129,9 @@ And so we're going to spend the next portion
 of this lecture just looking at different ways of using
 recursion.
 
-40
+### 40 ITERATIVE ALGORITHMS SO FAR
+
+![](https://ws2.sinaimg.cn/large/006tKfTcgy1fjps7fph9lj318y0y8q6a.jpg)
 
 If you think about iterative algorithms,
 to set the stage for recursion, what do we have?
@@ -1137,7 +1147,9 @@ until I got down to a state where I'm done.
 And then returning a value.
 That's what an iterative algorithm does.
 
-41
+### 41MULTIPLICATION - INTERATIVE SOLUTION
+
+![](https://ws2.sinaimg.cn/large/006tKfTcgy1fjps7y9ggej318o0yewkv.jpg)
 
 So here's a simple example to think about that.
 Suppose I wanted to do integer multiplication.
@@ -1181,7 +1193,9 @@ I encourage you to try it yourself,
 but you'll see that it actually does
 the multiplication I'd expect.
 
-42
+### 42 MULTIPLICATION - RECURSIVE SOLUTION
+
+![](https://ws2.sinaimg.cn/large/006tKfTcgy1fjps9cfymxj318y0y20yu.jpg)
 
 With that in mind, now let's look at a recursive solution
 to this problem.
@@ -1228,7 +1242,9 @@ And that's a standard form for a recursive function,
 and is a really elegant way of thinking about how
 to solve this problem.
 
-43
+### 43 FACTORIAL
+
+![](https://ws1.sinaimg.cn/large/006tKfTcgy1fjpsa9626nj316u0xwjv0.jpg)
 
 I could do the same thing.
 Let's think about computing factorial.
@@ -1258,7 +1274,9 @@ into smaller versions of the same problem
 because I know how to compute it directly?
 In the case of factorial, when I get down to a factorial of 1.
 
-44
+### 44 RECURSIVE FUNCTION SCOPE EXAMPLE
+
+![](https://ws1.sinaimg.cn/large/006tKfTcgy1fjpsappqz6j31a60ykagl.jpg)
 
 With that in mind, let's deal with something
 that may be puzzling you, which is how in the world
@@ -1344,7 +1362,9 @@ And therefore, the computer knows
 to stop at the right time.
 I've just said that.
 
-45
+### 45 SOME OBSERVATION
+
+![](https://ws4.sinaimg.cn/large/006tKfTcgy1fjpss8bd6nj31900y679o.jpg)
 
 Simply going to put the slide up so you can see it.
 Each recursive call creates its own scope.
@@ -1360,7 +1380,10 @@ of the function.
 But it's always done in a different scope.
 And therefore, it's always clear which version
 I'm using when I'm calling the body of the procedure.
-46
+
+### 46 ITERATION vs. RECUSION
+
+![](https://ws1.sinaimg.cn/large/006tNc79gy1fjpstut4jkj31a00yeq7e.jpg)
 
 This leaves us then with this nice comparison
 between iteration and recursion.
@@ -1402,7 +1425,9 @@ how the different scoped frames were created
 and to help us sort of decide that, in fact, it
 will stop when it reaches a base case and return a value.
 
-48
+### 48 INDUCTIVE REASIONING
+
+![](https://ws4.sinaimg.cn/large/006tNc79gy1fjpsv0y1caj31980yg7ad.jpg)
 
 But when I start trying to design code,
 I have to think about the same thing--
@@ -1445,7 +1470,9 @@ or is it going to get into an infinite loop,
 because it's going to recursively call itself
 over and over again?
 
-49
+### 49 MATHEMATICAL INDUCTION
+
+![](https://ws4.sinaimg.cn/large/006tNc79gy1fjpswx31f9j319a0yan0m.jpg)
 
 And to do that, we can use, as a little sidebar,
 a nice little mathematical tool called mathematical induction.
@@ -1465,7 +1492,9 @@ must be true for n plus 1.
 And with that, I can then essentially
 deduce mathematically, that it's true for all values of n.
 
-50
+### 50 EXAMPLE OF INDUCTION
+
+![](https://ws3.sinaimg.cn/large/006tNc79gy1fjpsxerer4j318g0yotct.jpg)
 
 Let me show you a little mathematical example of this.
 The sum of the integers for 0 up to n,
@@ -1498,7 +1527,9 @@ Assuming k, therefore it's true for k plus 1,
 I can now say it's true for all values of n.
 So this formula is always true.
 
-51
+### 51 RELEVANCE TO CODE?
+
+![](https://ws3.sinaimg.cn/large/006tNc79gy1fjpsyw54caj319i0y6td2.jpg)
 
 What does that have to do with code?
 Well, I can do the same thing.
@@ -1527,7 +1558,9 @@ Thus induction tells me I've got code that works.
 
 2017-09-19 14:33:45
 
-53
+### 53 TOWERS OF HANOI
+
+![](https://ws3.sinaimg.cn/large/006tNc79gy1fjpt0e2f6uj317y0yewkc.jpg)
 
 We've seen some simple examples of recursion,
 factorial, doing multiplication by doing recursive addition.
@@ -1613,7 +1646,9 @@ moving single disks.
 Recursively, this is easy to see.
 And that leads to a very natural implementation.
 
-54
+### 54 TOWERS OF HANOI
+
+![](https://ws4.sinaimg.cn/large/006tNc79gy1fjpt105vr5j317m0yctc7.jpg)
 
 OK.
 What you saw in that demo is that it's
@@ -1633,7 +1668,7 @@ Recursively, this is really easy to see.
 And so even though this looked like a very hard problem,
 it's very easy to write code to do it.
 
-55
+55 ![](https://ws1.sinaimg.cn/large/006tNc79gy1fjpt1sabhej318e0y8dj7.jpg)
 
 And so there is, in fact, a little set of code
 that says-- I got a function that simply
@@ -1669,3 +1704,116 @@ into a smaller version of the same problem,
 assume that can be solved, build your solution with that
 and other simple operations, and let the recursion then
 unwind it to get to the solution that you want.
+
+## Video: Fibonacci
+
+2017-09-20 09:34:20
+
+...
+
+56
+
+We just saw an example where we could
+have multiple recursive calls inside the body of a function.
+Perfectly fine.
+I want to show you a different example now
+in which we could have multiple base cases inside of a problem.
+And for this I'm going to use another classical problem
+called Fibonacci numbers.
+And here's the story behind Fibonacci.
+Leonardo of Pisa, also known as Fibonacci,
+posed the following challenge-- he
+said imagine I put a newborn pair of rabbits, one female,
+one male, in a pen or an enclosure.
+And I'm going to assume that rabbits mate at age one month
+and that rabbits have a one month gestational period.
+That is they produce a new pair, the female produces a new pair
+at the end of a month.
+He's also going to assume that rabbits never die
+and that the female always produces one new pair, one
+male and one female, every month from its second month on.
+And Fibonacci wanted to know how many female rabbits are there
+at the end of one year?
+
+57
+
+So let's do a little simulation of this
+and then we'll figure out how to actually solve it.
+So we start off with a pair of immature rabbits, a male
+and a female, first month.
+At the end of one month they've matured.
+They can therefore mate and at the end of the next month
+they're still around, but they've
+produced offspring, another male and a female.
+At the end of the next month the original pair
+have produced another pair of offspring
+and the first pair of offspring have matured.
+And that means that at end of the next month
+both sets of mature rabbits now produce offspring
+and another one is matured.
+And that keeps happening as we start
+generating more rabbits and more rabbits and more rabbits
+until we're overrun with rabbits.
+Question is-- could I model this to deduce
+how many female rabbits are there at the end of a year, two
+years, five years?
+And when will Australia completely get
+overwhelmed with rabbits, just to take an example of a place
+with too many rabbits.
+
+68
+
+So what does this say?
+I've got a little sequence here.
+In fact, they're known as the Fibonacci numbers, in which I
+have the following property-- at the end of one month I've
+got one female.
+At the end of the second month I've
+also got one female, that's now pregnant.
+At the end of the third month I've
+got two females, one pregnant, one not.
+And in general, at n months I've got however
+many females there were the previous time
+and I've also got however many females
+there were two months ago.
+Why?
+Because every female alive at month n minus 2
+will have produced one new female in month n,
+and those can be added to the number that
+were alive in month n minus 1 to get the total that
+were alive in month n.
+So there is basically the definition
+of Fibonacci numbers.
+
+69
+
+And how do I capture that in code?
+Well here I've got two base cases.
+I've got how many females at time
+0, how many females at time 1.
+And my recursive case notice involves two invocations
+of that function-- one for n minus 1 and one for n minus 2.
+
+70
+
+And if I want to turn that into code, there it is.
+I've got two bass cases.
+I'm doing it in one test, but I'm
+saying if x is either equal to 0 or x is equal to 1, return 1.
+Otherwise return fib of x minus 1 plus fib of x minus 2.
+And if I were to run that, I can see that I can actually
+compute Fibonacci given fib.
+I can check that my base cases work- fib of 0
+gives me 1 fib of 1 gives me 1.
+And just a couple of trials, fib of 2
+should give me the sum of those.
+And fib of 3 should give me the sum of those.
+And fib of 4 should give me the sum of those.
+And you can see, in fact, it is doing
+what I expected it would do.
+Here's a case where I've got two base cases.
+And in fact, I kind of know I need it
+because my return here in the general case
+needs two different invocations of that function.
+And I need two base cases to make sure
+that I can settle that out.
