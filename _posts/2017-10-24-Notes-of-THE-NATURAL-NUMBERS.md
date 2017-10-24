@@ -68,7 +68,31 @@ He is an old worker, and is respected as such. 他是一位老工人, 因而受�
 > $$
 >  1 + 2 = 2 + 1
 > $$
->  is only a particular instance of the general law that the sum of two integers is the same regardless of the order in which they are considered. Hence, when we wish to express the fact that a certain relation between integers is valid irrespective of the values of the particular integers involved, we shall denote integers symbolically by letters a, b, c, • .
+>  is only a particular instance of the general law that the sum of two integers is the same regardless of the order in which they are considered. Hence, when we wish to express the fact that a certain relation between integers is valid irrespective of the values of the particular integers involved, we shall **denote** integers symbolically by letters a, b, c, • .
+
+### irrespective
+
+adjective
+
+each member has one vote, irrespective of the number of shares held:
+
+ regardless of, without regard to/for, notwithstanding, whatever, no matter what, without consideration of.
+
+### denote 
+
+verb
+
+1 the headdresses denoted warriors: 
+
+designate, indicate, be a mark of, signify, signal, symbolize, represent, mean; typify, characterize, distinguish, mark, identify.
+
+2 his manner denoted an inner strength: 
+
+suggest, point to, smack of, indicate, show, reveal, intimate, imply, convey, betray, bespeak, spell.
+
+CHOOSE THE RIGHT WORD connote, denote
+
+Denote refers to the literal, primary meaning of something; connote refers to other characteristics suggested or implied by that thing. Thus, one might say that the word 'mother' denotes ‘a woman who is a parent’ but connotes qualities such as 'protection' and 'affection.' Connotate is a needless variant of connote that, if anything, only adds to the confusion, and therefore should be avoided.
 
 ### How to describe the five fundamental law of arithmetic?
 
