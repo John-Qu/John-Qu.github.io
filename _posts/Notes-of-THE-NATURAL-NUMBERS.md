@@ -43,5 +43,48 @@ above 2017-10-23
 
 ---
 
+### What stage of intellectual can understand the abstract character of the idea of numbers?
 
+> Only at a rather advanced stage of intellectual development does the abstract character of the idea of number become clear. 
+>
+> To children, numbers always re- main connected with tangible objects such as fingers or beads, and primi- tive languages display a concrete number sense by providing different sets of number words for different types of objects.
+
+数数，数的是东西，用的是语言。但是，自然数的意义与具体物和语言没有关系。
+
+> Fortunately, the mathematician as such need not be concerned with the philosophical nature of the transition from collections of concrete objects to the abstract number concept. We shall therefore accept the natural numbers as given, together with the two fundamental operations, addition and multiplication, by which they may be combined.
+
+类似于公理，假设，前提，不需要用更基本的概念来证明。自然数，及其加法和乘法，是自然届的基本事实。
+
+#### As such
+
+“as such 作“像这样的人、事、物”、“作为这样的人、事、物”、“以 … 资格、名义、身份“、“因而”讲。
+
+We agree to the plan as such. 我们同意像这样的计划。
+He is an old worker, and is respected as such. 他是一位老工人, 因而受到尊敬。（或译为：受到老工人应该受到的尊敬。）”
+
+### How to describe the using of specific integer and generality of laws?
+
+> In order to state these laws in full generality we cannot use symbols like 1, 2, 3 which refer to specific integers. The statement
+> $$
+>  1 + 2 = 2 + 1
+> $$
+>  is only a particular instance of the general law that the sum of two integers is the same regardless of the order in which they are considered. Hence, when we wish to express the fact that a certain relation between integers is valid irrespective of the values of the particular integers involved, we shall denote integers symbolically by letters a, b, c, • .
+
+### How to describe the five fundamental law of arithmetic?
+
+> 1) a + b = b + a, 2) ab = ba,
+>
+> 3) a + (b + c) = (a + b) + c, 4) a(bc) =(ab)c,
+>
+> 5) a(b + c) = ab + ac.
+>
+> The first two of these, the commutative laws of addition and multipli- cation, state that one may interchange the order of the elements involved in addition or multiplication. 
+>
+> The third, the associative law of addition, states that addition of three numbers gives the same result whether we add to the first the sum of the second and third, or to the third the sum of the first and second. 
+>
+> The fourth is the associative law of multiplication. 
+>
+> The last, the distributive law, expresses the fact that to multiply a sum by an integer we may multiply each term of the sum by this integer and then add the products.
+
+The fourth, the associative law of multiplication, states that multiplication of three numbers gives the same result whether we multiply to the first the product of the second and third, or to the third the product of the first and second.
 
