@@ -33,7 +33,7 @@ It is a "should be", whick means a point of view.
 > >
 > > creation, product, work, achievement; handicraft, craft, craftwork.
 
-It has argument in this point of view. 
+However, it has argument in this point of view. It seems that others take set theory as the basis of modern mathematics.
 
 > He criticized [Georg Cantor](https://en.wikipedia.org/wiki/Georg_Cantor)'s work on [set theory](https://en.wikipedia.org/wiki/Set_theory), and was quoted by [Weber (1893)](https://en.wikipedia.org/wiki/Leopold_Kronecker#CITEREFWeber1893)as having said, "*Die ganzen Zahlen hat der liebe Gott gemacht, alles andere ist Menschenwerk*" ("God made the integers, all else is the work of man.").
 
@@ -61,6 +61,8 @@ above 2017-10-23
 
 We agree to the plan as such. 我们同意像这样的计划。
 He is an old worker, and is respected as such. 他是一位老工人, 因而受到尊敬。（或译为：受到老工人应该受到的尊敬。）”
+
+## CALCULATION WITH INTEGERS
 
 ### How to describe the using of specific integer and generality of laws?
 
@@ -111,4 +113,62 @@ Denote refers to the literal, primary meaning of something; connote refers to ot
 > The last, the distributive law, expresses the fact that to multiply a sum by an integer we may multiply each term of the sum by this integer and then add the products.
 
 The fourth, the associative law of multiplication, states that multiplication of three numbers gives the same result whether we multiply to the first the product of the second and third, or to the third the product of the first and second.
+
+2017-10-24 TUS above
+
+---
+
+### Might the commutative, associative, and distributive laws be applicable to entities other than integers?
+
+As less not for chemical substances.
+
+> If a and b are symbols not for integers but for chemical substances, and if “addition” is used in a colloquial sense, it is evident that the commutative law will not always hold. 
+>
+> For example, if **sulphuric** acid is added to water, a dilute solution is obtained, while the addition of water to pure sulphuric acid may result in disaster to the experimenter. Similar illustrations will show that in this type of chemical “arithmetic” the associative and distributive laws of addition may also fail.
+>
+> > sulfuric |səlˈfyo͞orik| (chiefly British also sulphuric) adjective
+> >
+> > containing sulfur or sulfuric acid: 
+> >
+> > the sulfuric byproducts of wood fires.
+
+Can I give another circumstance in which one or more of the three arithmetic laws do not hold?
+
+### Is there a concrete model for the abstract concept of integer to indicate the intuitive basis on which the law 1)-5) rest?
+
+a set of dots placed in a rectangular box, one dot for each object
+
+![](https://ws4.sinaimg.cn/large/006tNbRwly1fku3l2hbi6j30sc05cwf3.jpg)
+
+![](https://ws1.sinaimg.cn/large/006tNbRwly1fku3l2ckqej30mu09sdgq.jpg)
+
+![](https://ws1.sinaimg.cn/large/006tNbRwly1fku3l2742vj30xa076wfo.jpg)
+
+> Geometrical models like these boxes of dots, such as the ancient abacus, were widely used for numerical calculations until late in the middle ages, when they were slowly displaced by greatly superior symbolic methods based on the decimal system.
+
+### How do we define the relation of inequality and the operation of subtraction with the definition of equality and addition?
+
+> Each of the equivalent statements, a < b and b > a, means that box b may be obtained from box a by the addition of a properly chosen third box c, so that b = a + c.
+>
+> When this is so we write
+>
+> c = b - a,
+>
+> which defines the operation of subtraction.
+
+## What is inverse operations in arithmetic?
+
+Addition and subtraction are said to be inverse operations.
+
+(a + d) - d = a
+
+But multiplication and division is not inverse operations.
+
+### What are the characteristic arithmetical properties of zero?
+
+a + 0 = a,
+
+a*0 = 0,
+
+a - a = 0
 
