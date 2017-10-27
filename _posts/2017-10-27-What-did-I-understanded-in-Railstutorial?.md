@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "What did I understanded in Railstutorial?"
-date: +0800
+date: 2017-10-27 16:42:50 +0800
 categories: notes
 ---
 
