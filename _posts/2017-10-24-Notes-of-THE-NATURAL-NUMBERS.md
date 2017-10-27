@@ -172,3 +172,90 @@ a*0 = 0,
 
 a - a = 0
 
+### How to represent integer with symbols? Is it natural to do this way?
+
+> We must carefully distinguish between an integer and the symbol, 5, V, • . * , etc., used to represent it.
+
+It is not natural this way.
+
+### For large integers, how to resprenet them?
+
+> The general rule is to express an integer in the form illustrated by
+>
+> ![](https://ws4.sinaimg.cn/large/006tNc79ly1fkwejcltobj3168026weu.jpg)
+>
+> where the digits a, b, c, d are integers from zero to nine. The integer z is then represented by the *abbreviated* symbol
+>
+> ![](https://ws2.sinaimg.cn/large/006tNc79ly1fkwejs3vj4j316802k3yk.jpg)
+
+> > abbreviated
+> >
+> > adjective
+> >
+> > an abbreviated version of the story: 
+> >
+> > shortened, reduced, cut, condensed, abridged, concise, compact, succinct; summary, thumbnail, capsule, synoptic; formal compendious. ANTONYMS  expanded, long.
+
+> We note *in passing* that the coefficients d, c, b, a are the remainders left after successive divisions of z by 10. Thus
+>
+> ![](https://ws1.sinaimg.cn/large/006tNc79ly1fkwens1431j316606g758.jpg)
+
+> > in passing
+> >
+> > he mentioned in passing that you had a lot of female visitors: incidentally, by the by, by the way, as it happens, in the course of conversation, en passant, parenthetically.
+> >
+> > briefly and casually: the research was mentioned only in passing.
+
+### Can you realize that the selection of ten as base is not essential?
+
+> In the decimal system the number ten is singled out to serve as a base. The *layman* may not realize that the selection of ten is not essential, and that any integer greater than one would serve the same purpose.
+>
+> For examnle. a senltynal svstem (base 71 could he used. TMIn such a systern, an integer would be expressed as
+>
+> ![](https://ws4.sinaimg.cn/large/006tNc79gy1fkwewmxk2vj3160026t96.jpg)
+>
+> where the b s arc digits from zero to six, and denoted by the symbol
+>
+> ![](https://ws4.sinaimg.cn/large/006tNc79gy1fkwex7406sj314y026mxc.jpg)
+>
+> For example:
+>
+> ![](https://ws1.sinaimg.cn/large/006tNc79ly1fkwf2nwy2cj315007q406.jpg)
+
+> > layperson
+> >
+> > noun
+> >
+> > 1 a prayer book for laypeople: 
+> >
+> > unordained person, member of the congregation, layman, laywoman, member of the laity.
+> >
+> > 2 engineering sounds highly specialized to the layperson: 
+> >
+> > layman, nonexpert, nonprofessional, amateur, nonspecialist, dilettante.
+
+### What is the important point in this positional notation?
+
+> Here the important point is that the meaning of the digit symbols 3, 7, 2 depends on their position in the units, tens, or hundreds place. With this “positional notation” we can represent any integer by using only the ten digit symbols in various combinations.
+
+> The invention of positionq.1 notation, attributed to the Sumerians or Babylonians and developed by the Hindus, was of enormous significance for civilization. Early systems of numeration were based on a purely additive principle. In the Roman symbolism, for example, one wrote![](https://ws4.sinaimg.cn/large/006tNc79ly1fkwf6kqqy4j314o020t9f.jpg)
+>
+> The Egyptian, Hebrew, and Greek systems of numeration were on the same level. 
+>
+> One disadvantage of any purely additive notation is that more and more new symbols are needed as numbers get larger. (Of course, early scientists were not troubled by our modern astronomical oratomicmagnitudes.) But the chief faul to fancient systems, such as the Roman, was that computation with numbers was so difficult that only the specialist could handle any but the simplest problems.
+
+### What is the agreeable property of the positional system?
+
+> The positional system has the agreeable property that all numbers, however large or small, can be represented by the use of a small set of different digit symbols (in the decimal system, these are the ‘‘Arabic numerals” 0, 1,2, • • • ,9). Along with this goes the more importantadvantageofeaseofcomputation. The rules of reckoning with numbers represented in positional notation can be stated in the form of addition and multiplication tables for the digits that can be memo- rized once and for all. The ancient art of computation, once confined to a few adepts, is now taught in elementary school. There are not many instances where scientific progress has so deeply affected and facilitated everyday life.
+
+> > reckon verb
+> >
+> > 1 the cost was reckoned at $6,000: calculate, compute, peg, work out, put a figure on, figure; count (up), add up, total; chiefly British tot up.
+> >
+> > 2 Anselm reckoned Hugh among his friends: include, count, consider to be, regard as, look on as.
+> >
+> > 3 informal I reckon I can manage that: believe, think, be of the opinion/view, be convinced, dare say, imagine, guess, suppose, consider, figure.
+> >
+> > 4 it was reckoned a failure: regard as, consider, judge, hold to be, think of as; deem, rate, gauge, count.
+> >
+> > 5 I reckon to get good value for money: expect to, anticipate, hope to, be looking to; count on, rely on, depend on, bank on, figure on.
