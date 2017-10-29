@@ -246,9 +246,11 @@ It is not natural this way.
 
 ### What is the agreeable property of the positional system?
 
-> The positional system has the agreeable property that all numbers, however large or small, can be represented by the use of a small set of different digit symbols (in the decimal system, these are the ‘‘Arabic numerals” 0, 1,2, • • • ,9). Along with this goes the more importantadvantageofeaseofcomputation. The rules of reckoning with numbers represented in positional notation can be stated in the form of addition and multiplication tables for the digits that can be memo- rized once and for all. The ancient art of computation, once confined to a few adepts, is now taught in elementary school. There are not many instances where scientific progress has so deeply affected and facilitated everyday life.
+> The positional system has the agreeable property that all numbers, however large or small, can be represented by the use of a small set of different digit symbols (in the decimal system, these are the ‘‘Arabic numerals” 0, 1,2, • • • ,9). 
+>
+> Along with this goes the more important advantage of ease of computation. The rules of *reckoning* with numbers represented in positional notation can be stated in the form of addition and multiplication tables for the digits that can be memorized once and for all. The ancient art of computation, once *confined* to a few adepts, is now taught in elementary school. There are not many instances where scientific progress has so deeply affected and facilitated everyday life.
 
-> > reckon verb
+> > #### reckon verb
 > >
 > > 1 the cost was reckoned at $6,000: calculate, compute, peg, work out, put a figure on, figure; count (up), add up, total; chiefly British tot up.
 > >
@@ -259,3 +261,168 @@ It is not natural this way.
 > > 4 it was reckoned a failure: regard as, consider, judge, hold to be, think of as; deem, rate, gauge, count.
 > >
 > > 5 I reckon to get good value for money: expect to, anticipate, hope to, be looking to; count on, rely on, depend on, bank on, figure on.
+> >
+> > #### confine 
+> >
+> > verb
+> >
+> > 1 they were confined in the house: enclose, incarcerate, imprison, intern, impound, hold captive, trap; shut in/up, keep, lock in/up, coop (up); fence in, hedge in, wall in/up.
+> >
+> > 2 he confined his remarks to the weather: restrict, limit.
+> >
+> > #### instance
+> >
+> > noun
+> >
+> > an instance of racism: example, exemplar, occasion, occurrence, case; illustration.
+> >
+> > verb
+> >
+> > they instanced the previous case as an example: cite, quote, refer to, mention, allude to, give; specify, name, identify, draw attention to, put forward, offer, advance.
+
+above 2017-10-27
+
+---
+
+### How dose the words of many languages show remnants of the use of other bases, notably twelve and twenty?
+
+> In English and German the words for II and 12 are not constructed on the decimal principle of combining 10 with the digits, as are the ‘‘teens," but are linguistically independent of the words for 10. 
+>
+> In French the words ‘ ‘vingt” and ‘ ‘quatre- vingt" for 20 and 80 suggest that for some purposes a system with base 20 might have been used. 
+>
+> In Danish the word for 70, “halvfirsindstyve," means half-way (from threetimes) to fourtimes twenty. 
+>
+> The Babylonian astronomers had a system of notation that was partly sexagesimal (base 60), and this is believed to account for the customary division of the hour and the angular degree into 60 minutes.
+
+### Exercise C1-1-3-1: Set up the addition and multiplication tables in the duodecimal system and work some examples of the same sort.
+
+> Accustomed to the decimal system and tied to it by the number words of our language, we might at first find this a little confusing.
+
+> > #### duodecimal
+> >
+> > ORIGIN late 17th century: from Latin duodecimus  ‘twelfth’ (from duodecim ‘twelve’) + [-al](x-dictionary:r:m_en_us1220702:com.apple.dictionary.NOAD).
+> >
+> > In Latin, rather than English and German, the word 12 is dependent with ten.
+
+With this code, I have generated the additional and mutiplicational tables.
+
+```python
+def make_addition_table(b):
+    ''' print out the addtion table of base b
+    '''
+    print("Addition Table of Base " + str(b))
+    # print the head row first
+    for i in range(b):
+        print(tobase(i, b), end = "\t")
+    print()
+    # print the table
+    for i in range(b-1):
+        r = i + 1 # row
+        # print the head column in each line
+        print(tobase(r, b), end = "\t")
+        for j in range(b-1):
+            c = j + 1 # column
+            s = r + c # sum
+            print(tobase(s, b), end = "\t")
+        print()
+        
+def make_multipication_table(b):
+    ''' print out the Multiplication table of base b
+    '''
+    print("Multiplication Table of Base " + str(b))
+    # print the head row first
+    for i in range(b):
+        print(tobase(i, b), end = "\t")
+    print()
+    for i in range(b-1):
+        r = i + 1 # row
+        print(tobase(r, b), end = "\t")
+        for j in range(b-1):
+            c = j + 1 # column
+            p = r * c # product
+            print(tobase(p, b), end = "\t")
+        print()
+
+def tobase(n, b):
+    """ represents decimal number in base system
+        input: string of decimal number, and base
+        output: str of number in base
+    """
+    res = ""
+    n = int(n)
+    while True:
+        mod, rem = divmod(n, b)
+        if rem > 9:
+            d = chr(945 + rem-10) # go along with α, β, γ...
+        else:
+            d = str(rem)
+        res = d + res
+        if mod == 0:
+            break
+        else:
+            n = mod
+    return res
+```
+
+![](https://ws4.sinaimg.cn/large/006tKfTcly1fkypp8zdwgj316s0euack.jpg)
+
+![](https://ws1.sinaimg.cn/large/006tKfTcly1fkyppoz2vbj317c0ekacu.jpg)
+
+If I would like to multiply 2α9 with 3β, it would be
+
+![](https://ws3.sinaimg.cn/large/006tKfTcgy1fkytx3r9ftj30av0bg74e.jpg)
+
+To check the result, I wrote this code.
+
+```python
+def test01(x, y, xy, b):
+    """ Tests x * y in base b, where
+    x, y is string of number in base b
+    """
+    xy10 = frbase(xy, b)
+    xx = frbase(x, b)
+    yy = frbase(y, b)
+    xxyy = str(int(xx) * int(yy))
+    print(x + " * " + y + " in base " + str(b) + " is " + xy)
+    print("which is " + xy10 + " in decimal system.")
+    print(x + " in base" + str(b) + " is decimal " + xx + ",")
+    print(y + " in base" + str(b) + " is decimal " + yy )
+    print("and" + xx + " * " + yy + " in decimal is " + str(xxyy) + ".")
+
+test01("2α9", "3β", "β413", 12)
+```
+
+It prints out:
+
+```Shell
+2α9 * 3β in base 12 is β413
+which is 19599 in decimal system.
+2α9 in base12 is decimal 417,
+3β in base12 is decimal 47
+and 417 * 47 in decimal is 19599.
+```
+
+### Exercise C1-1-3-2: Express “thirty" and “one hundred and thirty-three" in the systems with the bases 5, 7, 11, 12.
+
+```python
+def test02():
+    x = "30"
+    y = "133"
+    l_b = [5, 7, 11, 12]
+    for b in l_b:
+        print(x + ", " + y + " in base " + str(b) + " is " + tobase(x, b) + ", "  + tobase(y, b))
+
+test02()
+```
+
+```shell
+30, 133 in base 5 is 110, 1013
+30, 133 in base 7 is 42, 250
+30, 133 in base 11 is 28, 111
+30, 133 in base 12 is 26, β1
+```
+
+Above 2017-10-29
+
+---
+
