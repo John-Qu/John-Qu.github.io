@@ -47,10 +47,11 @@ Alternatively, you can rebase your change between X and B on top of A, with "git
   /   /
 ---X---A
 
-### Solution:
+### My solution:
 
 1. Delete "sample_app" repository locally, so that `git add origin` has no conflicts.
 2. Recreate another repository on github, note that initial without license and readme, so that there is no commit yet.
 3. Push as early as possible.
 
 145564
+

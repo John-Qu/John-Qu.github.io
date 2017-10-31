@@ -368,7 +368,7 @@ def tobase(n, b):
 
 ![](https://ws1.sinaimg.cn/large/006tKfTcly1fkyppoz2vbj317c0ekacu.jpg)
 
-If I would like to multiply 2α9 with 3β, it would be
+If I multiply 2α9 with 3β, it would be
 
 ![](https://ws3.sinaimg.cn/large/006tKfTcgy1fkytx3r9ftj30av0bg74e.jpg)
 
@@ -422,7 +422,77 @@ test02()
 30, 133 in base 12 is 26, β1
 ```
 
+### Exercise C1-1-3-3: What do the symbols 11111 and 21212 mean in these systems?
+
+```shell
+11111, 21212 is 781, 1432 in base 5
+11111, 21212 is 2801, 5252 in base 7
+11111, 21212 is 16105, 30868 in base 11
+11111, 21212 is 22621, 43502 in base 12
+```
+
+
+
+### Exercise C1-1-3-4: Form the addition and multiplication tables for the bases 5, 11, 13.
+
+![](https://ws3.sinaimg.cn/large/006tKfTcgy1fl0dmiayn8j30gk0diq3u.jpg)
+
+![](https://ws1.sinaimg.cn/large/006tKfTcgy1fl0dmnp6qmj31380qs78f.jpg)
+
+![](https://ws4.sinaimg.cn/large/006tKfTcgy1fl0dmwert1j31am0vkn33.jpg)
+
 Above 2017-10-29
 
+------
+
+### Why is dyadic system singled out?
+
+* It has the smallest possible base, which has only digits of 0 and 1, and every other number *z* is represented by a row of these symbols.
+* The addition and multiplication tables consist merely of the rules 1 + 1 = 10 and 1·1 = 1.
+* To quote Laplace: “Leibniz saw in his binary arithmetic the image of creation. He imagined that Unity represented God, and zero the void that the Supreme Being drew all beings from the void, just as unity and zero express all numbers in his system of numeration.”
+
+### Exercise C1-1-3-5: 
+
+Consider the question of representing integers with the base a. In order to name the integers in this system we need words for the digits 0, 1, …, a-1 and for the various powers of a: a1, a2 a3 • • • . 
+
+How many different number words are needed to name all numbers from zero to one thousand, for a - 2, 3, 4, 5, , 15? Which base requires the fewest? 
+
+(Examples: If a = 10, we need ten words for the digits, plus words for 10, 100, and 1000, making a total of 13. For a = 20, we need twenty w’ords for the digits, plus words for 20 and 400, making a total of 22. If a = 100, we need 100 plus 1.)
+
+With code
+
+```python
+def test05():
+    for b in range(2, 16):
+        print("It needs " + str(b + len(tobase(1000 , b)) - 1) + " words in base " +str(b))
+
+test05()
+```
+
+we get the results
+
+```shell
+It needs 11 words in base 2
+It needs 9 words in base 3
+It needs 8 words in base 4
+It needs 9 words in base 5
+It needs 9 words in base 6
+It needs 10 words in base 7
+It needs 11 words in base 8
+It needs 12 words in base 9
+It needs 13 words in base 10
+It needs 13 words in base 11
+It needs 14 words in base 12
+It needs 15 words in base 13
+It needs 16 words in base 14
+It needs 17 words in base 15
+```
+
+System with base 4 requires the fewest words to name all numbers from zero to one thousand.
+
+2017-10-31 above
+
 ---
+
+
 
