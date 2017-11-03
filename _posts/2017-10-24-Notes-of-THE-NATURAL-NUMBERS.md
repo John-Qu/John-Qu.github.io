@@ -62,7 +62,7 @@ above 2017-10-23
 We agree to the plan as such. 我们同意像这样的计划。
 He is an old worker, and is respected as such. 他是一位老工人, 因而受到尊敬。（或译为：受到老工人应该受到的尊敬。）”
 
-## CALCULATION WITH INTEGERS
+## 1. CALCULATION WITH INTEGERS
 
 ### How to describe the using of specific integer and generality of laws?
 
@@ -494,5 +494,12 @@ System with base 4 requires the fewest words to name all numbers from zero to on
 
 ---
 
+## 2. THE INFINITUDE OF THE NUMBER SYSTEM. MATHEMATICAL INDUCTION
 
+### What is the simplest example to describe the mathematical infinite?
 
+It is infinite sequence of integers.
+
+> There is no end to the sequence of integers 1, 2, 3, 4, • • • ; for after any integer n has been reached we may write the next integer, n + 1. We express this property of the sequence of integers by saying that there are infinitely many integers. 
+>
+> The sequence of integers represents the simplest and most natural example of the mathematical infinite, which plays a dominant role in modern mathematics. Everywhere in this book we shall have to deal with collections or “sets" containing infinitely many mathematical objects, like the set of all points on a line or the set of all triangles in a plane. The infinite sequence of integers is the simplest example of an infinite set.
