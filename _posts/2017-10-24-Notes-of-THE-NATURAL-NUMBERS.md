@@ -503,3 +503,31 @@ It is infinite sequence of integers.
 > There is no end to the sequence of integers 1, 2, 3, 4, • • • ; for after any integer n has been reached we may write the next integer, n + 1. We express this property of the sequence of integers by saying that there are infinitely many integers. 
 >
 > The sequence of integers represents the simplest and most natural example of the mathematical infinite, which plays a dominant role in modern mathematics. Everywhere in this book we shall have to deal with collections or “sets" containing infinitely many mathematical objects, like the set of all points on a line or the set of all triangles in a plane. The infinite sequence of integers is the simplest example of an infinite set.
+
+### What is "Empirical induction"?
+
+> "Empirical induction" in the natural sciences proceeds from a particular series of observations of a certain phenomenon to the statement of a general law governing all occurrences of this phenomenon. The degree of certainty with which the law is thereby established depends on the number of single observations and confirmations. This sort of inductive reasoning is often entirely **convincing**; the prediction that the sun will rise tomorrow in the east is as certain as anything can be, but the character of this statement is not the same as that of a theorem proved by strict logical or mathematical reasoning.
+>
+> > Convincing
+> >
+> > 1 a convincing argument: cogent, persuasive, plausible, powerful, potent, strong, forceful, compelling, irresistible, telling, conclusive.
+> >
+> > 2 a convincing 5–0 win: resounding, emphatic, decisive, conclusive.
+>
+> 只能说是“有说服力”，而不够“确定”。
+
+### What is "Mathematical induction"?
+
+> The step by step procedure of passing from n to n + 1 which generates the infinite sequence of integers also forms the basis of one of the most fundamental patterns of mathematical reasoning, the principle of mathematical induction.
+>
+> In quite a different way mathematical inditetion is used to establish the truth of a mathematical theorem for an infinite sequence of cases, the first, the second, the third, and so on without exception.
+>
+> Let us denote by A a statement that involves an arbitrary integer n. To prove such a theorem for *every* integer *n* it does not suffice to prove it separately for the first 10 or 100 or even 1000 values of n. This indeed would **correspond** to the attitude of empirical induction.
+>
+> > correspond
+> >
+> > 1.  1 their policies do not correspond with their statements: correlate with, agree with, be in agreement with, be consistent with, be compatible with, be consonant with, accord with, be in tune with, concur with, coincide with, tally with, tie in with, dovetail (with), fit in with; match, parallel; informal square with, jibe with.
+> > 2. 2 a rank corresponding to the American rank of corporal: be equivalent, be analogous, be comparable, equate.
+> > 3. 3 Debbie and I corresponded for years: exchange letters, write, communicate, keep in touch, keep in contact.
+>
+> 上句中的“This”，应该是指用十百千来验证这个方法。
