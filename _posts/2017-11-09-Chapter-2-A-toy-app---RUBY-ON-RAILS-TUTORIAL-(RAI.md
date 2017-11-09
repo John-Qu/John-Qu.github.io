@@ -5,63 +5,6 @@ date: 2017-11-09 10:06:43 +0800
 categories: book
 ---
 
-≡ MENU
-
-- [LOG IN](https://www.softcover.io/login)
-- [SIGN UP](https://www.softcover.io/account/sign_up)
-
-[![Cover web](https://softcover.s3.amazonaws.com/636/ruby_on_rails_tutorial_4th_edition/images/cover-web.png)![Cover bg a267f19fd8b824c7c0873181647cc75bb6d54a494aa1942f1e24244792c9c684](https://www.softcover.io/assets/cover_bg-a267f19fd8b824c7c0873181647cc75bb6d54a494aa1942f1e24244792c9c684.png)](https://www.railstutorial.org/book)
-
-# RUBY ON RAILS TUTORIAL (RAILS 5)Learn Web Development with Rails**Michael Hartl**
-
-[BOOK INFO](https://www.railstutorial.org/)[CONTACT AUTHOR](mailto:admin@railstutorial.org)
-
-[**](javascript://)
-
-New to software development?
-
- 
-
-Learn Enough Story
-
-[START LEARNING NOW](http://www.learnenough.com/story)
-
-- [Frontmatter]()
-- [Chapter 1: From zero to deploy]()
-- [Chapter 2: A toy app]()
-- [Chapter 3: Mostly static pages]()
-- [Chapter 4: Rails-flavored Ruby]()
-- [Chapter 5: Filling in the layout]()
-- [Chapter 6: Modeling users]()
-- [Chapter 7: Sign up]()
-- [Chapter 8: Basic login]()
-- [Chapter 9: Advanced login]()
-- [Chapter 10: Updating, showing, and deleting users]()
-- [Chapter 11: Account activation]()
-- [Chapter 12: Password reset]()
-- [Chapter 13: User microposts]()
-- [Chapter 14: Following users]()
-
-[** MAILING LIST ](https://www.railstutorial.org/book/toy_app)[BUY NOW](https://www.railstutorial.org/#pricing)
-
-  
-
- 
-
-[** SINGLE PAGE](javascript://)
-
- 
-
-◄
-
- 
-
-▲
-
- 
-
-►
-
 Chapter 2: A toy app
 
 # [Chapter 2A toy app](https://www.railstutorial.org/book/toy_app#cha-a_toy_app)
@@ -1010,7 +953,3 @@ The rest of this tutorial is dedicated to building on the strengths and eliminat
 6. The scaffold code may have extra blank lines compared to [Listing 2.11](https://www.railstutorial.org/book/toy_app#code-demo_microposts_resource). This is not a cause for concern, as Ruby ignores such extra space. [↑](https://www.railstutorial.org/book/toy_app#cha-2_footnote-ref-6)
 7. Your console prompt might be something like `2.1.1 :001 >`, but the examples use `>>` since Ruby versions will vary. [↑](https://www.railstutorial.org/book/toy_app#cha-2_footnote-ref-7)
 8. As with “Ctrl-C”, the capital “D” refers to the key on the keyboard, not the capital letter, so you don’t have to hold down the Shift key along with the Ctrl key. [↑](https://www.railstutorial.org/book/toy_app#cha-2_footnote-ref-8)
-
-[◄](javascript://) [▲](javascript://) [►](javascript://)
-
-*powered by* [![Logo foot 2bb1fc62a4fe7cfdd8223560afd5fea72ad2696d7a3886cfe471ef18a80a1fb4](https://www.softcover.io/assets/logo_foot-2bb1fc62a4fe7cfdd8223560afd5fea72ad2696d7a3886cfe471ef18a80a1fb4.png)](http://www.softcover.io/)

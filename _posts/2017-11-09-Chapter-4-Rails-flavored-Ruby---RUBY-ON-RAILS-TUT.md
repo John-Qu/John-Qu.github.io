@@ -5,63 +5,6 @@ date: 2017-11-09 09:58:05 +0800
 categories: book
 ---
 
-≡ MENU
-
-- [LOG IN](https://www.softcover.io/login)
-- [SIGN UP](https://www.softcover.io/account/sign_up)
-
-[![Cover web](https://softcover.s3.amazonaws.com/636/ruby_on_rails_tutorial_4th_edition/images/cover-web.png)![Cover bg a267f19fd8b824c7c0873181647cc75bb6d54a494aa1942f1e24244792c9c684](https://www.softcover.io/assets/cover_bg-a267f19fd8b824c7c0873181647cc75bb6d54a494aa1942f1e24244792c9c684.png)](https://www.railstutorial.org/book)
-
-# RUBY ON RAILS TUTORIAL (RAILS 5)Learn Web Development with Rails**Michael Hartl**
-
-[BOOK INFO](https://www.railstutorial.org/)[CONTACT AUTHOR](mailto:admin@railstutorial.org)
-
-[**](javascript://)
-
-New to software development?
-
- 
-
-Learn Enough Story
-
-[START LEARNING NOW](http://www.learnenough.com/story)
-
-- [Frontmatter]()
-- [Chapter 1: From zero to deploy]()
-- [Chapter 2: A toy app]()
-- [Chapter 3: Mostly static pages]()
-- [Chapter 4: Rails-flavored Ruby]()
-- [Chapter 5: Filling in the layout]()
-- [Chapter 6: Modeling users]()
-- [Chapter 7: Sign up]()
-- [Chapter 8: Basic login]()
-- [Chapter 9: Advanced login]()
-- [Chapter 10: Updating, showing, and deleting users]()
-- [Chapter 11: Account activation]()
-- [Chapter 12: Password reset]()
-- [Chapter 13: User microposts]()
-- [Chapter 14: Following users]()
-
-[** MAILING LIST ](https://www.railstutorial.org/book/rails_flavored_ruby)[BUY NOW](https://www.railstutorial.org/#pricing)
-
-  
-
- 
-
-[** SINGLE PAGE](javascript://)
-
- 
-
-◄
-
- 
-
-▲
-
- 
-
-►
-
 Chapter 4: Rails-flavored Ruby
 
 # [Chapter 4Rails-flavored Ruby](https://www.railstutorial.org/book/rails_flavored_ruby#cha-rails_flavored_ruby)
@@ -1223,7 +1166,7 @@ Solutions to exercises are available for free at [railstutorial.org/solutions](h
 
 4. Find an online version of the Ruby API and read about the Hash method
 
-    
+
 
    ```
    merge
@@ -1233,7 +1176,7 @@ Solutions to exercises are available for free at [railstutorial.org/solutions](h
 
    ​
 
-    
+
 
    What is the value of the following expression?
 
@@ -1797,7 +1740,3 @@ $ git push heroku
 15. These results will vary based on the version of Ruby you are using. This example assumes you are using Ruby 1.9.3 or later. [↑](https://www.railstutorial.org/book/rails_flavored_ruby#cha-4_footnote-ref-15)
 16. For more on Ruby classes and the `self` keyword, see the [RailsTips](http://railstips.org/) post “[Class and Instance Variables in Ruby](http://railstips.org/blog/archives/2006/11/18/class-and-instance-variables-in-ruby/)”. [↑](https://www.railstutorial.org/book/rails_flavored_ruby#cha-4_footnote-ref-16)
 17. You don’t have to know what each class in this hierarchy does. *I*don’t know what they all do, and I’ve been programming in Ruby on Rails since 2005. This means either that (a) I’m grossly incompetent or (b) you can be a skilled Rails developer without knowing all its innards. I hope for both our sakes that it’s the latter. [↑](https://www.railstutorial.org/book/rails_flavored_ruby#cha-4_footnote-ref-17)
-
-[◄](javascript://) [▲](javascript://) [►](javascript://)
-
-*powered by* [![Logo foot 2bb1fc62a4fe7cfdd8223560afd5fea72ad2696d7a3886cfe471ef18a80a1fb4](https://www.softcover.io/assets/logo_foot-2bb1fc62a4fe7cfdd8223560afd5fea72ad2696d7a3886cfe471ef18a80a1fb4.png)](http://www.softcover.io/)

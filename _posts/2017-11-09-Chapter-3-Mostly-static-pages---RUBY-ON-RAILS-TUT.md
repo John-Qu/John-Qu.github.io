@@ -5,63 +5,6 @@ date: 2017-11-09 10:07:20 +0800
 categories: book
 ---
 
-≡ MENU
-
-- [LOG IN](https://www.softcover.io/login)
-- [SIGN UP](https://www.softcover.io/account/sign_up)
-
-[![Cover web](https://softcover.s3.amazonaws.com/636/ruby_on_rails_tutorial_4th_edition/images/cover-web.png)![Cover bg a267f19fd8b824c7c0873181647cc75bb6d54a494aa1942f1e24244792c9c684](https://www.softcover.io/assets/cover_bg-a267f19fd8b824c7c0873181647cc75bb6d54a494aa1942f1e24244792c9c684.png)](https://www.railstutorial.org/book)
-
-# RUBY ON RAILS TUTORIAL (RAILS 5)Learn Web Development with Rails**Michael Hartl**
-
-[BOOK INFO](https://www.railstutorial.org/)[CONTACT AUTHOR](mailto:admin@railstutorial.org)
-
-[**](javascript://)
-
-New to software development?
-
- 
-
-Learn Enough Story
-
-[START LEARNING NOW](http://www.learnenough.com/story)
-
-- [Frontmatter]()
-- [Chapter 1: From zero to deploy]()
-- [Chapter 2: A toy app]()
-- [Chapter 3: Mostly static pages]()
-- [Chapter 4: Rails-flavored Ruby]()
-- [Chapter 5: Filling in the layout]()
-- [Chapter 6: Modeling users]()
-- [Chapter 7: Sign up]()
-- [Chapter 8: Basic login]()
-- [Chapter 9: Advanced login]()
-- [Chapter 10: Updating, showing, and deleting users]()
-- [Chapter 11: Account activation]()
-- [Chapter 12: Password reset]()
-- [Chapter 13: User microposts]()
-- [Chapter 14: Following users]()
-
-[** MAILING LIST ](https://www.railstutorial.org/book/static_pages)[BUY NOW](https://www.railstutorial.org/#pricing)
-
-  
-
- 
-
-[** SINGLE PAGE](javascript://)
-
- 
-
-◄
-
- 
-
-▲
-
- 
-
-►
-
 Chapter 3: Mostly static pages
 
 # [Chapter 3Mostly static pages](https://www.railstutorial.org/book/static_pages#cha-static_pages)
@@ -1663,7 +1606,3 @@ $ git commit -m "Complete advanced setup"
 18. If you get an error message saying that the Spring process id (pid) file would be overwritten by the merge, just remove the file using `rm -f *.pid` at the command line. [↑](https://www.railstutorial.org/book/static_pages#cha-3_footnote-ref-18)
 19. The code in [Listing 3.44](https://www.railstutorial.org/book/static_pages#code-minitest_reporters) mixes single- and double-quoted strings. This is because `rails new` generates single-quoted strings, whereas the [minitest reporters documentation](https://github.com/kern/minitest-reporters) uses double-quoted strings. This mixing of the two string types is common in Ruby; see [Section 4.2.2](https://www.railstutorial.org/book/rails_flavored_ruby#sec-strings) for more information. [↑](https://www.railstutorial.org/book/static_pages#cha-3_footnote-ref-19)
 20. The screenshot was taken using Rails 4.2, which as noted in [Box 2.1](https://www.railstutorial.org/book/toy_app#aside-rake) uses `rake test` in place of `rails test`. Resolving such minor discrepancies is a good exercise in technical sophistication ([Box 1.1](https://www.railstutorial.org/book/beginning#aside-technical_sophistication)). [↑](https://www.railstutorial.org/book/static_pages#cha-3_footnote-ref-20)
-
-[◄](javascript://) [▲](javascript://) [►](javascript://)
-
-*powered by* [![Logo foot 2bb1fc62a4fe7cfdd8223560afd5fea72ad2696d7a3886cfe471ef18a80a1fb4](https://www.softcover.io/assets/logo_foot-2bb1fc62a4fe7cfdd8223560afd5fea72ad2696d7a3886cfe471ef18a80a1fb4.png)](http://www.softcover.io/)

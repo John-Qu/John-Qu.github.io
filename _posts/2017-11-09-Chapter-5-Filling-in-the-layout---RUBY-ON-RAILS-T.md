@@ -5,65 +5,6 @@ date: 2017-11-09 10:09:28 +0800
 categories: book
 ---
 
-≡ MENU
-
-- [LOG IN](https://www.softcover.io/login)
-- [SIGN UP](https://www.softcover.io/account/sign_up)
-
-[![Cover web](https://softcover.s3.amazonaws.com/636/ruby_on_rails_tutorial_4th_edition/images/cover-web.png)![Cover bg a267f19fd8b824c7c0873181647cc75bb6d54a494aa1942f1e24244792c9c684](https://www.softcover.io/assets/cover_bg-a267f19fd8b824c7c0873181647cc75bb6d54a494aa1942f1e24244792c9c684.png)](https://www.railstutorial.org/book)
-
-# RUBY ON RAILS TUTORIAL (RAILS 5)Learn Web Development with Rails**Michael Hartl**
-
-[BOOK INFO](https://www.railstutorial.org/)[CONTACT AUTHOR](mailto:admin@railstutorial.org)
-
-[**](javascript://)
-
-New to software development?
-
- 
-
-Learn Enough Story
-
- 
-
-[START LEARNING NOW](http://www.learnenough.com/story)
-
-- [Frontmatter]()
-- [Chapter 1: From zero to deploy]()
-- [Chapter 2: A toy app]()
-- [Chapter 3: Mostly static pages]()
-- [Chapter 4: Rails-flavored Ruby]()
-- [Chapter 5: Filling in the layout]()
-- [Chapter 6: Modeling users]()
-- [Chapter 7: Sign up]()
-- [Chapter 8: Basic login]()
-- [Chapter 9: Advanced login]()
-- [Chapter 10: Updating, showing, and deleting users]()
-- [Chapter 11: Account activation]()
-- [Chapter 12: Password reset]()
-- [Chapter 13: User microposts]()
-- [Chapter 14: Following users]()
-
-[** MAILING LIST ](https://www.railstutorial.org/book/filling_in_the_layout)[BUY NOW](https://www.railstutorial.org/#pricing)
-
-  
-
- 
-
-[** SINGLE PAGE](javascript://)
-
- 
-
-◄
-
- 
-
-▲
-
- 
-
-►
-
 Chapter 5: Filling in the layout
 
 # [Chapter 5Filling in the layout](https://www.railstutorial.org/book/filling_in_the_layout#cha-filling_in_the_layout)
@@ -1847,7 +1788,3 @@ Figure 5.12: The sample application in production.
 14. The structure of this section is based on the excellent blog post “The Rails 3 Asset Pipeline in (about) 5 Minutes” by Michael Erasmus. For more details, see the [Rails Guide on the Asset Pipeline](http://guides.rubyonrails.org/asset_pipeline.html). [↑](https://www.railstutorial.org/book/filling_in_the_layout#cha-5_footnote-ref-14)
 15. Sass also supports an alternate syntax that does define a new language, which is less verbose (and has fewer curly braces) but is less convenient for existing projects and is harder to learn for those already familiar with CSS. [↑](https://www.railstutorial.org/book/filling_in_the_layout#cha-5_footnote-ref-15)
 16. Some developers insist that a single test shouldn’t contain multiple assertions. I find this practice to be unnecessarily complicated, while also incurring an extra overhead if there are common setup tasks needed before each test. In addition, a well-written test tells a coherent story, and breaking it up into individual pieces disrupts the narrative. I thus have a strong preference for including multiple assertions in a test, relying on Ruby (via minitest) to tell me the exact lines of any failed assertions. [↑](https://www.railstutorial.org/book/filling_in_the_layout#cha-5_footnote-ref-16)
-
-[◄](javascript://) [▲](javascript://) [►](javascript://)
-
-*powered by* [![Logo foot 2bb1fc62a4fe7cfdd8223560afd5fea72ad2696d7a3886cfe471ef18a80a1fb4](https://www.softcover.io/assets/logo_foot-2bb1fc62a4fe7cfdd8223560afd5fea72ad2696d7a3886cfe471ef18a80a1fb4.png)](http://www.softcover.io/)

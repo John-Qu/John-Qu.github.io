@@ -5,63 +5,6 @@ date: 2017-11-09 10:10:41 +0800
 categories: book
 ---
 
-≡ MENU
-
-- [LOG IN](https://www.softcover.io/login)
-- [SIGN UP](https://www.softcover.io/account/sign_up)
-
-[![Cover web](https://softcover.s3.amazonaws.com/636/ruby_on_rails_tutorial_4th_edition/images/cover-web.png)![Cover bg a267f19fd8b824c7c0873181647cc75bb6d54a494aa1942f1e24244792c9c684](https://www.softcover.io/assets/cover_bg-a267f19fd8b824c7c0873181647cc75bb6d54a494aa1942f1e24244792c9c684.png)](https://www.railstutorial.org/book)
-
-# RUBY ON RAILS TUTORIAL (RAILS 5)Learn Web Development with Rails**Michael Hartl**
-
-[BOOK INFO](https://www.railstutorial.org/)[CONTACT AUTHOR](mailto:admin@railstutorial.org)
-
-[**](javascript://)
-
-New to software development?
-
- 
-
-Learn Enough Story
-
-[START LEARNING NOW](http://www.learnenough.com/story)
-
-- [Frontmatter]()
-- [Chapter 1: From zero to deploy]()
-- [Chapter 2: A toy app]()
-- [Chapter 3: Mostly static pages]()
-- [Chapter 4: Rails-flavored Ruby]()
-- [Chapter 5: Filling in the layout]()
-- [Chapter 6: Modeling users]()
-- [Chapter 7: Sign up]()
-- [Chapter 8: Basic login]()
-- [Chapter 9: Advanced login]()
-- [Chapter 10: Updating, showing, and deleting users]()
-- [Chapter 11: Account activation]()
-- [Chapter 12: Password reset]()
-- [Chapter 13: User microposts]()
-- [Chapter 14: Following users]()
-
-[** MAILING LIST ](https://www.railstutorial.org/book/sign_up)[BUY NOW](https://www.railstutorial.org/#pricing)
-
-  
-
- 
-
-[** SINGLE PAGE](javascript://)
-
- 
-
-◄
-
- 
-
-▲
-
- 
-
-►
-
 Chapter 7: Sign up
 
 # [Chapter 7Sign up](https://www.railstutorial.org/book/sign_up#cha-sign_up)
@@ -1895,7 +1838,3 @@ Being able to sign up users is a major milestone for our application. Although t
 13. [Listing 7.37](https://www.railstutorial.org/book/sign_up#code-production_webserver_config) changes the formatting slightly so that the code fits in the standard 80 columns. [↑](https://www.railstutorial.org/book/sign_up#cha-7_footnote-ref-13)
 14. We haven’t changed the data model in this chapter, so running the migration at Heroku shouldn’t be necessary, but only if you followed the steps in [Section 6.4](https://www.railstutorial.org/book/modeling_users#sec-modeling_users_conclusion). Because several readers reported having trouble, I’ve added `heroku run rails db:migrate` as a final step just to be safe. [↑](https://www.railstutorial.org/book/sign_up#cha-7_footnote-ref-14)
 15. For example, at one point Heroku required Ruby 2.1.4, so I spent several hours trying unsuccessfully to install Ruby 2.1.4 on my local machine—only to discover that Ruby 2.1.5 had been released the previous day. Attempts to install Ruby 2.1.5 then also failed. [↑](https://www.railstutorial.org/book/sign_up#cha-7_footnote-ref-15)
-
-[◄](javascript://) [▲](javascript://) [►](javascript://)
-
-*powered by* [![Logo foot 2bb1fc62a4fe7cfdd8223560afd5fea72ad2696d7a3886cfe471ef18a80a1fb4](https://www.softcover.io/assets/logo_foot-2bb1fc62a4fe7cfdd8223560afd5fea72ad2696d7a3886cfe471ef18a80a1fb4.png)](http://www.softcover.io/)

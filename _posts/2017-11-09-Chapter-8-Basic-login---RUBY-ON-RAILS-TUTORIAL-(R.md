@@ -5,63 +5,6 @@ date: 2017-11-09 10:11:42 +0800
 categories: book
 ---
 
-≡ MENU
-
-- [LOG IN](https://www.softcover.io/login)
-- [SIGN UP](https://www.softcover.io/account/sign_up)
-
-[![Cover web](https://softcover.s3.amazonaws.com/636/ruby_on_rails_tutorial_4th_edition/images/cover-web.png)![Cover bg a267f19fd8b824c7c0873181647cc75bb6d54a494aa1942f1e24244792c9c684](https://www.softcover.io/assets/cover_bg-a267f19fd8b824c7c0873181647cc75bb6d54a494aa1942f1e24244792c9c684.png)](https://www.railstutorial.org/book)
-
-# RUBY ON RAILS TUTORIAL (RAILS 5)Learn Web Development with Rails**Michael Hartl**
-
-[BOOK INFO](https://www.railstutorial.org/)[CONTACT AUTHOR](mailto:admin@railstutorial.org)
-
-[**](javascript://)
-
-New to software development?
-
- 
-
-Learn Enough Story
-
-[START LEARNING NOW](http://www.learnenough.com/story)
-
-- [Frontmatter]()
-- [Chapter 1: From zero to deploy]()
-- [Chapter 2: A toy app]()
-- [Chapter 3: Mostly static pages]()
-- [Chapter 4: Rails-flavored Ruby]()
-- [Chapter 5: Filling in the layout]()
-- [Chapter 6: Modeling users]()
-- [Chapter 7: Sign up]()
-- [Chapter 8: Basic login]()
-- [Chapter 9: Advanced login]()
-- [Chapter 10: Updating, showing, and deleting users]()
-- [Chapter 11: Account activation]()
-- [Chapter 12: Password reset]()
-- [Chapter 13: User microposts]()
-- [Chapter 14: Following users]()
-
-[** MAILING LIST ](https://www.railstutorial.org/book/basic_login)[BUY NOW](https://www.railstutorial.org/#pricing)
-
-  
-
- 
-
-[** SINGLE PAGE](javascript://)
-
- 
-
-◄
-
- 
-
-▲
-
- 
-
-►
-
 Chapter 8: Basic login
 
 # [Chapter 8Basic login](https://www.railstutorial.org/book/basic_login#cha-basic_login)
@@ -1403,7 +1346,3 @@ $ git push heroku
 14. For example, I once had a test suite that was **green** even after accidentally deleting the main `log_in` method in the Sessions helper. The reason is that the tests were happily using a test helper with the same name, thereby passing even though the application was completely broken. As with `is_logged_in?`, we’ll avoid this issue by defining the test helper `log_in_as` in [Listing 9.24](https://www.railstutorial.org/book/advanced_login#code-test_helper_log_in). [↑](https://www.railstutorial.org/book/basic_login#cha-8_footnote-ref-14)
 15. Some browsers offer a “[remember where I left off](http://stackoverflow.com/questions/20449641/rails-4-session-value-never-expires-or-dies-when-browser-closes)” feature, which restores the session automatically, so be sure to disable any such feature before trying to log out. [↑](https://www.railstutorial.org/book/basic_login#cha-8_footnote-ref-15)
 16. Setting `@current_user` to `nil` would only matter if `@current_user` were created before the `destroy` action (which it isn’t) *and* if we didn’t issue an immediate redirect (which we do). This is an unlikely combination of events, and with the application as presently constructed it isn’t necessary, but because it’s security-related I include it for completeness. [↑](https://www.railstutorial.org/book/basic_login#cha-8_footnote-ref-16)
-
-[◄](javascript://) [▲](javascript://) [►](javascript://)
-
-*powered by* [![Logo foot 2bb1fc62a4fe7cfdd8223560afd5fea72ad2696d7a3886cfe471ef18a80a1fb4](https://www.softcover.io/assets/logo_foot-2bb1fc62a4fe7cfdd8223560afd5fea72ad2696d7a3886cfe471ef18a80a1fb4.png)](http://www.softcover.io/)

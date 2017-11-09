@@ -1180,7 +1180,3 @@ I also recommend signing up for the [Rails Tutorial email list](http://www.rails
 27. toolbelt.heroku.com [↑](https://www.railstutorial.org/book/beginning#cha-1_footnote-ref-27)
 28. This solution, known as “security through obscurity”, is fine for hobby projects, but for sites that require greater initial security I recommend using [Rails HTTP basic authentication](http://lmgtfy.com/?q=HTTP+basic+authentication). This is a much more advanced technique, though, and requires significantly more technical sophistication ([Box 1.1](https://www.railstutorial.org/book/beginning#aside-technical_sophistication)) to implement. (Thanks to Alfie Pates for raising this issue.) [↑](https://www.railstutorial.org/book/beginning#cha-1_footnote-ref-28)
 29. railstutorial.org/email [↑](https://www.railstutorial.org/book/beginning#cha-1_footnote-ref-29)
-
-[◄](javascript://) [▲](javascript://) [►](javascript://)
-
-*powered by* [![Logo foot 2bb1fc62a4fe7cfdd8223560afd5fea72ad2696d7a3886cfe471ef18a80a1fb4](https://www.softcover.io/assets/logo_foot-2bb1fc62a4fe7cfdd8223560afd5fea72ad2696d7a3886cfe471ef18a80a1fb4.png)](http://www.softcover.io/)
