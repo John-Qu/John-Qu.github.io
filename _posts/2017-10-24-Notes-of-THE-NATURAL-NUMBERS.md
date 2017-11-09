@@ -522,12 +522,133 @@ It is infinite sequence of integers.
 >
 > In quite a different way mathematical inditetion is used to establish the truth of a mathematical theorem for an infinite sequence of cases, the first, the second, the third, and so on without exception.
 >
-> Let us denote by A a statement that involves an arbitrary integer n. To prove such a theorem for *every* integer *n* it does not suffice to prove it separately for the first 10 or 100 or even 1000 values of n. This indeed would **correspond** to the attitude of empirical induction.
->
-> > correspond
-> >
-> > 1.  1 their policies do not correspond with their statements: correlate with, agree with, be in agreement with, be consistent with, be compatible with, be consonant with, accord with, be in tune with, concur with, coincide with, tally with, tie in with, dovetail (with), fit in with; match, parallel; informal square with, jibe with.
-> > 2. 2 a rank corresponding to the American rank of corporal: be equivalent, be analogous, be comparable, equate.
-> > 3. 3 Debbie and I corresponded for years: exchange letters, write, communicate, keep in touch, keep in contact.
+> Let us denote by A a statement that involves an arbitrary integer n. To prove such a theorem for *every* integer *n* it does not suffice to prove it separately for the first 10 or 100 or even 1000 values of n. This indeed would <u>correspond</u> to the attitude of empirical induction.
 >
 > 上句中的“This”，应该是指用十百千来验证这个方法。
+>
+> > #### correspond
+> >
+> > 1.  1 their policies do not correspond with their statements: correlate with, agree with, be in agreement with, be consistent with, be compatible with, be consonant with, accord with, be in tune with, concur with, coincide with, tally with, tie in with, dovetail (with), fit in with; match, parallel; informal square with, jibe with.
+> > 2.  2 a rank corresponding to the American rank of corporal: be equivalent, be analogous, be comparable, equate.
+> > 3.  3 Debbie and I corresponded for years: exchange letters, write, communicate, keep in touch, keep in contact.
+>
+
+above 2017-11-05
+
+> Let us suppose that we wish to establish a whole infinite sequence of mathematical propositions
+>
+> A1, A2, A3, ••• 
+>
+> which together constitute the general <u>proposition</u> A. *Suppose that a) by some mathematical argument it is shown that if r is any integer and if the <u>assertion</u> Ar is known to be true then the truth of the assertion Ar+1 will follow, and that b) the first proposition A1 is known to be true. Then all the propositions of the sequence must be true, and A is proved.*
+>
+> The principle of mathematical induction thus rests on the fact that after any integer r there is a next, r + 1, and that any desired integer n may be reached by a finite number of such steps, starting from the integer 1.
+>
+> > #### proposition
+> >
+> > 1 the analysis derives from one proposition: theory, hypothesis, thesis, argument, premise, principle, theorem, concept, idea, statement.
+> >
+> > 2 a business proposition: proposal, scheme, plan, project, idea, program, bid.
+> >
+> > 3 doing it for real is a very different proposition: task, job, undertaking, venture, activity, affair, problem.
+> >
+> > verb he never dared proposition her: propose sex with, make sexual advances to, make an indecent proposal to, make an improper suggestion to; informal hit on.
+> >
+> > #### assertion 
+> >
+> > 1 I questioned his assertion: declaration, contention, statement, claim, opinion, proclamation, announcement, pronouncement, protestation, avowal; formal averment; rare asseveration.
+> >
+> > 2 an assertion of the right to march: defense of, upholding of; insistence on.
+> >
+> > 这俩词貌似有大小之分，但是文中好像可以等效替代。
+>
+> Often the principle of mathematical induction is applied without explicit mention, or is simply indicated by a casual “etc.” or “and so on.” This is especially frequent in elementary instruction. But the explicit use of an inductive argument is indispensable in more subtle proofs.
+>
+> > #### explicit 
+> >
+> > adjective 
+> >
+> > 1 explicit instructions: clear, plain, straightforward, crystal clear, easily understandable; precise, exact, specific, unequivocal, unambiguous; detailed, comprehensive, exhaustive. ANTONYMS  vague.
+> >
+> > 2 sexually explicit material: graphic, uncensored, candid, full-frontal, hard-core.
+> >
+> > #### subtle
+> >
+> > adjective 
+> >
+> > 1 subtle colors: understated, muted, subdued; delicate, faint, pale, soft, indistinct.
+> >
+> > 2 subtle distinctions: fine, fine-drawn, nice, hair-splitting.
+> >
+> > 3 a subtle mind: astute, keen, quick, fine, acute, sharp, shrewd, perceptive, discerning, discriminating, penetrating, sagacious, wise, clever, intelligent.4 a subtle plan: ingenious, clever, cunning, crafty, wily, artful, devious.
+
+### How to find and prove the sum of the first (n + 1) term of any arithmetical progression?
+
+---
+
+#### ![](https://ws2.sinaimg.cn/large/006tKfTcly1fl93sbb7b2j317o0d0ae4.jpg)
+
+> For the case a = 0, d = 1, this is equivalent to (1).
+
+![](https://ws1.sinaimg.cn/large/006tKfTcly1fl93tfq87cj318203874w.jpg)
+
+Ordinarily this is shown by writiing the sum `1 + 2 + 3 + … + n` in two forms:
+
+![](https://ws4.sinaimg.cn/large/006tKfTcly1fl93v0238xj317a08wgms.jpg)
+
+On adding, we see that each pair of numbers in the same column yields the sum `n + 1`, and, since there are `n`column in all, it follows that
+
+![](https://ws4.sinaimg.cn/large/006tKfTcly1fl93y1vbvgj317802sdg5.jpg)
+
+which proves the desired result.
+
+### How to find and prove the sum of the first (n + 1) term of any geometrical progression?
+
+![](https://ws4.sinaimg.cn/large/006tKfTcgy1fl943zvt1uj317e03yaaz.jpg)
+
+> (We suppose that q != 1, since otherwise the right side of (3) has no meanine.)
+
+> One may treat the general geometrical progression in a similar way.
+>
+> Certainly this assertion is true for n = 1, for then it states that
+>
+> ![](https://ws2.sinaimg.cn/large/006tKfTcly1fl9476duyhj317803swfp.jpg)
+>
+> And *if* we assume that
+>
+> ![](https://ws3.sinaimg.cn/large/006tKfTcly1fl947rih4oj316e03cwf4.jpg)
+>
+> then we find as a concequence that
+>
+> ![](https://ws4.sinaimg.cn/large/006tKfTcly1fl948obwb4j316w088wh6.jpg)
+>
+> But this is precisely the assertion (3) for the case `n = r + 1`. This completes the proof.
+
+> In elementary textbook the usual proof proceeds as follows. Set
+>
+> ![](https://ws3.sinaimg.cn/large/006tKfTcgy1fl94af5683j318202ot93.jpg)
+>
+> and multiply both sides of this equation by `q`, obtaining
+>
+> ![](https://ws2.sinaimg.cn/large/006tKfTcgy1fl94bd24zcj316i02s0t9.jpg)
+>
+> Now subtract corresponding sides of this equation from the preceding equation, obtaining
+>
+> ![](https://ws1.sinaimg.cn/large/006tKfTcly1fl94d963t9j317g08yq4h.jpg)
+
+ Above 2017-11-07 06:36:09
+
+### It should be remarked that although the principle of mathematical induction suffices to prove the formula (5) once this formula has been written down, the proof gives no indication of how this formula was arrived at in the first place; why precisely the expression [n(n + 1)/2]^2 should be guessed as an expression for the sum of the first n cubes, rather than [n(n + 1)/3]^2 or (19n^2 - 41n + 24)/2 or any of the infinitely many expressions of a similar type that could have been considered?
+
+> The fact that the proof of a theorem consists in the application of certain simple rules of logic does not dispose of the creative element in mathematics, which lies in the choice of the possibilities to be examined. The question of the origin of the hypothesis (5) belongs to a domain in which no very general rules can be given; **experiment, analogy, and constructive intuition** play their part here. 
+>
+> But once the correct *hypothesis* is formulated, the principle of mathematical induction is often sufficient to provide the proof. <u>Inasmuch</u> as such a proof does not give a clue to the act of discovery, it might more fittingly be called a *verification*.
+
+> > #### inasmuch
+> >
+> > “常可用 inasmuch as (或 in as much as) 代替 since，以引出原因状语从句，但前者多用于书面语中。例如：
+> >
+> > Inasmuch as (或 In as much as) it is not your fault, you needn't care. 既然这不是你的错，你就不必介意了。（也可用 since 代之。）”
+> >
+
+Above 2017-11-09
+
