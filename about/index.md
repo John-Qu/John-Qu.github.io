@@ -6,7 +6,7 @@ title: About
 <!-- <img src="John.jpeg" class="profile-picture" width="128" align="right"> -->
 <img src="A Father from a boy s cam.jpg" class="profile-picture" width="128" align="right">
 
-你好，我叫曲政，是非典型的斜杠中年：
+你好，我叫曲政，一个非典型的斜杠中年：
 
 * 技术传道者
 * 佛系读书人
@@ -18,7 +18,7 @@ title: About
 * 画过的图纸在[这个水平](https://ws2.sinaimg.cn/large/006tNc79gy1fptq2p3o8ej31kw1034qp.jpg)，建过的模型长[这个样子](https://ws4.sinaimg.cn/large/006tNc79gy1fptq1ksfvmj314q1he4df.jpg)。
 * 现场积累的14册小笔记大多是[这个样子](https://ws4.sinaimg.cn/large/006tNc79gy1fptq2xx58nj30a60exq7r.jpg)。
 * 天津的客户来上海看我，那[就是朋友](https://ws1.sinaimg.cn/large/006tNc79gy1fptq7v42hhj31kw16oe82.jpg)。
-* 帮老婆完成推广任务，写个[买表的文案](https://www.jianshu.com/p/2866f03cd6f0)。
+* 帮老婆完成推广任务，写个[卖表的文案](https://www.jianshu.com/p/2866f03cd6f0)。
 
 <h2>佛系读书人</h2>
 
