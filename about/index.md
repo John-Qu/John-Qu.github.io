@@ -4,14 +4,14 @@ title: About
 ---
 
 <!-- <img src="John.jpeg" class="profile-picture" width="128" align="right"> -->
-<img src="A Father from a boy s cam.jpg" class="profile-picture" width="128" align="right">
+<img src="A Father from a boy s cam.jpg" class="profile-picture" width="256" align="right">
 
 你好，我叫曲政，一个非典型的斜杠中年：
 
 * 技术传道者
 * 佛系读书人
 * 长跑记录家
-* 慈父妻管严
+* 慈父孺子牛
 
 <h2>技术传道者</h2>
 我从[上海交通大学机械与动力工程学院](http://me.sjtu.edu.cn/)硕士毕业，到[普丽盛](http://www.cn-pls.com/)搞了三年设计绘图，进[第一精工]()干了三年制造装配，又阴差阳错来[电产东测](http://www.nidec-tosok.co.jp/chinese/index.html)当了一年客户经理。我发现自己挺喜欢接受新技术的洗礼，并能传达出去，让各位接受。我的同事和客户们，比较喜欢听我说话，也许是因为这个。
@@ -36,11 +36,11 @@ title: About
 * 参加完大活动，从我的视角写一写，就是《[如果下辈子我做队长——参加2017年高校百英里接力赛后记](https://www.jianshu.com/p/d24eded05352)》
 * 有时我不说话，做摄影记者，然后及时分享给大家，就成了《[元夕翌日的操场上，你能找到我吗？- 220张图，记老友会万米测试](https://mp.weixin.qq.com/s/wT9p5HcHyEyIujpYvjZcBQ)》
 
-<h2>慈父妻管炎</h2>
+<h2>慈父孺子牛</h2>
 
 我即将成为二胎爸爸了，那时大儿子三岁半。我一直以为他是我的老师，教了我很多事情。
 
-* 他周岁时，我给他做了一个小视频，用的是12张素描画。
+* 他周岁时，我给他做了一个小视频，用的是[12张素描画](https://ws4.sinaimg.cn/large/006tKfTcgy1fpuut579rmg30zk0zknpq.gif)。
 * 我在读小库买了不少的书，为其中一本写了推荐文《[面对一题多解的挑战，父母也要备课](https://www.jianshu.com/p/34ebb3229f6c)》。
 
 <!-- You can find me on a variety of world–wild–interweb sites where my username is usually `John Qu` -->
@@ -48,5 +48,5 @@ title: About
 你可以在很多地方看到我的踪迹，通常我的名字都是`Johnquicker`
 
 - [简书](https://www.jianshu.com/u/4b4715327b8e) — 靠亲友打赏，一年真的可以买双跑鞋.
-- [贝拉图](https://github.com/john-qu) — 个人订阅号，关于成长和老虫们的故事.
+- [贝拉图](https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzAwNzgwNjI3MA==&scene=124&#wechat_redirect) — 个人订阅号，关于成长和老虫们的故事.
 - [Linkedin](https://www.linkedin.com/in/%E6%94%BF-%E6%9B%B2-bbb95b100/) — 我的职场档案馆.
