@@ -4,7 +4,7 @@ title: About
 ---
 
 <!-- <img src="John.jpeg" class="profile-picture" width="128" align="right"> -->
-<img src="A Father from a boy s cam.jpg" class="profile-picture" width="256" align="right">
+<img src="A Father from a boy s cam.jpg" class="profile-picture" width="200" align="right">
 
 你好，我叫曲政，一个非典型的斜杠中年：
 
@@ -40,7 +40,7 @@ title: About
 
 我即将成为二胎爸爸了，那时大儿子三岁半。我一直以为他是我的老师，教了我很多事情。
 
-* 他周岁时，我给他做了一个小视频，用的是[12张素描画](https://ws4.sinaimg.cn/large/006tKfTcgy1fpuut579rmg30zk0zknpq.gif)。
+* 他周岁时，我给他做了一个小视频，用的是[12张素描画](https://ws2.sinaimg.cn/large/006tKfTcgy1fpuv8nj0qng30zk0zkb2k.gif)。
 * 我在读小库买了不少的书，为其中一本写了推荐文《[面对一题多解的挑战，父母也要备课](https://www.jianshu.com/p/34ebb3229f6c)》。
 
 <!-- You can find me on a variety of world–wild–interweb sites where my username is usually `John Qu` -->
