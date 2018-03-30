@@ -22,10 +22,10 @@
 
   text-rendering: optimizeLegibility;
   text-rendering: geometricPrecision;
-  -moz-font-feature-settings:"kern" 1, "liga" 1; 
-  -ms-font-feature-settings:"kern" 1, "liga" 1; 
-  -o-font-feature-settings:"kern" 1, "liga" 1; 
-  -webkit-font-feature-settings:"kern" 1, "liga" 1; 
+  -moz-font-feature-settings:"kern" 1, "liga" 1;
+  -ms-font-feature-settings:"kern" 1, "liga" 1;
+  -o-font-feature-settings:"kern" 1, "liga" 1;
+  -webkit-font-feature-settings:"kern" 1, "liga" 1;
   font-feature-settings:"kern" 1, "liga" 1;
   }
 
@@ -90,7 +90,8 @@ h4, h5, h6 { font-size: 16px; margin:1em 0 -0.2em 0; }
 
 /* anchors */
 a[href] {
-  color: inherit;
+  /* color: inherit; */
+  color: darkblue;
   text-decoration: none;
   /*display: inline-block;*/
   padding-bottom:0.025em;
