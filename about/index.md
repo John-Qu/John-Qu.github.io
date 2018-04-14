@@ -38,15 +38,16 @@ title: About
 
 <h2>慈父孺子牛</h2>
 
-我即将成为二胎爸爸了，那时大儿子三岁半。我一直以为他是我的老师，教了我很多事情。
+我即将成为二胎爸爸了，那时大儿子三岁半。他是我的老师，已经教了我很多事情。
 
 * 他周岁时，我给他做了一个小视频，用的是[12张素描画](https://ws2.sinaimg.cn/large/006tKfTcgy1fpuv8nj0qng30zk0zkb2k.gif)。
 * 我在读小库买了不少的书，为其中一本写了推荐文《[面对一题多解的挑战，父母也要备课](https://www.jianshu.com/p/34ebb3229f6c)》。
 
 <!-- You can find me on a variety of world–wild–interweb sites where my username is usually `John Qu` -->
 
-你可以在很多地方看到我的踪迹，通常我的名字都是`Johnquicker`
+你可以在很多地方看到我的踪迹，通常我的名字都是`Johnquicker`或`John-Qu`
 
+- [Github](https://github.com/John-Qu) - 三十五岁给自己加的一个维度.
 - [简书](https://www.jianshu.com/u/4b4715327b8e) — 靠亲友打赏，一年真的可以买双跑鞋.
 - [贝拉图](https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzAwNzgwNjI3MA==&scene=124&#wechat_redirect) — 个人订阅号，关于成长和老虫们的故事.
 - [Linkedin](https://www.linkedin.com/in/%E6%94%BF-%E6%9B%B2-bbb95b100/) — 我的职场档案馆.
