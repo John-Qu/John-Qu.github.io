@@ -8,7 +8,7 @@ description: 《奔跑吧，程序员》（英文书名：Hello Startup《你好
 
 # 敢问坑在何方
 
-——《[奔跑吧，程序员](http://www.ituring.com.cn/book/1776)》（英文书名：[Hello Startup](https://www.hello-startup.net/)《你好，创业公司》）的读后推荐文，首发于豆瓣读书。
+——《[奔跑吧，程序员](http://www.ituring.com.cn/book/1776)》（英文书名：[Hello Startup](https://www.hello-startup.net/)《你好，创业公司》）的读后推荐文，首发于[豆瓣读书](https://book.douban.com/subject/30271075/)。
 
 我终于读完这本书，三百五十页，已经花了我三个星期，为什么还要写软文？听说这家书商两年前立下的规定还没有改掉。他们说：购买一个月内，给我们的书写书评或者笔记，电子书钱奖给你。我爸妈都是商人，他们教导我，利己利人的生意，能做赶快做（刚才一查，7月25日买的书，8月22日打的草稿，拖到9月5日完工，没戏了）。
 
